@@ -55,9 +55,14 @@ html {
   pointer-events: none;
 }
 
-/* Brand teal hover for navigation links */
+/* Navigation link styling */
+.nav-link {
+  color: #585858;
+  transition: color 0.3s ease;
+}
+
 .nav-link:hover {
-  color: #6ec6ca;
+  color: #6ec6ca !important;
 }
 
 /* About Us link hover color */

@@ -20,11 +20,11 @@ export default function Home() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="font-medium transition nav-link" style={{ color: "#585858" }}>About Us</a>
-            <a href="#services" className="font-medium transition nav-link" style={{ color: "#585858" }}>Services</a>
-            <a href="#why-us" className="font-medium transition nav-link" style={{ color: "#585858" }}>Why Us</a>
-            <a href="#pricing" className="font-medium transition nav-link" style={{ color: "#585858" }}>Pricing</a>
-            <a href="#team" className="font-medium transition nav-link" style={{ color: "#585858" }}>Meet the Team</a>
+            <a href="#about" className="font-medium nav-link">About Us</a>
+            <a href="#services" className="font-medium nav-link">Services</a>
+            <a href="#why-us" className="font-medium nav-link">Why Us</a>
+            <a href="#pricing" className="font-medium nav-link">Pricing</a>
+            <a href="#team" className="font-medium nav-link">Meet the Team</a>
           </div>
         </div>
       </nav>
