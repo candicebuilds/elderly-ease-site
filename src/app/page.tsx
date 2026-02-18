@@ -1,5 +1,8 @@
 import Image from "next/image";
 
+import { FiPhone, FiMail } from 'react-icons/fi'
+import { FaWhatsapp } from 'react-icons/fa'
+
 export default function Home() {
   return (
     <div className="w-full bg-amber-50">
@@ -424,7 +427,9 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl">💬</div>
+                <div className="text-4xl" style={{ color: "#6ec6ca" }}>
+                  <FaWhatsapp />
+                </div>
                 <div>
                   <p className="font-medium text-gray-700 mb-2">WhatsApp</p>
                   <a href="https://wa.me/27689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
@@ -434,7 +439,9 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl">📧</div>
+                <div className="text-4xl" style={{ color: "#6ec6ca" }}>
+                  <FiMail />
+                </div>
                 <div>
                   <p className="font-medium text-gray-700 mb-2">Email</p>
                   <a href="mailto:hello@elderlyease.co.za" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
@@ -444,7 +451,9 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl">📞</div>
+                <div className="text-4xl" style={{ color: "#6ec6ca" }}>
+                  <FiPhone />
+                </div>
                 <div>
                   <p className="font-medium text-gray-700 mb-2">Phone</p>
                   <a href="tel:0689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
