@@ -54,9 +54,9 @@ export default function Home() {
                 <button className="text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105" style={{ backgroundColor: "#7b3f7e" }}>
                   Contact Us
                 </button>
-                <button className="px-8 py-3 rounded-full font-medium transition hover:bg-gray-100" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
+                <a href="#about" className="px-8 py-3 rounded-full font-medium transition hover:bg-gray-100 inline-block" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
                   Learn More
-                </button>
+                </a>
               </div>
             </div>
 
