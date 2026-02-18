@@ -27,7 +27,7 @@ export default function Home() {
             <a href="#services" className="text-gray-700 font-medium transition nav-link">Services</a>
             <a href="#why-us" className="text-gray-700 font-medium transition nav-link">Why Us</a>
             <a href="#pricing" className="text-gray-700 font-medium transition nav-link">Pricing</a>
-            <a href="#team" className="text-gray-700 font-medium transition nav-link">Meet The Team</a>
+            <a href="#team" className="text-gray-700 font-medium transition nav-link">Meet the Team</a>
           </div>
 
           <button
@@ -46,7 +46,7 @@ export default function Home() {
             {/* Hero Content */}
             <div className="flex flex-col justify-center space-y-6">
               <div>
-                <p className="text-teal-600 font-medium text-lg mb-2">Welcome to Elderly Ease</p>
+                <p className="font-medium text-lg mb-2" style={{ color: "rgb(110, 198, 202)" }}>Welcome to Elderly Ease</p>
                 <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
                   Because asking for help should feel easy
                 </h1>
