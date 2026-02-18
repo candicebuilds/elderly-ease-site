@@ -337,7 +337,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2" style={{ color: "#585858" }}>Simple Hourly Ease</h3>
               <p className="mb-4" style={{ color: "#585858" }}>
-                <span className="text-2xl font-bold" style={{ color: "#6ec6ca" }}>R250</span> / hour
+                <span className="text-2xl font-bold" style={{ color: "#6ec6ca" }}>R250</span>/hour
               </p>
               <p className="text-sm mb-4" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
             </div>
