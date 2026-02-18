@@ -26,11 +26,11 @@ export default function Home() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-gray-700 font-medium transition nav-link">About Us</a>
-            <a href="#services" className="text-gray-700 font-medium transition nav-link">Services</a>
-            <a href="#why-us" className="text-gray-700 font-medium transition nav-link">Why Us</a>
-            <a href="#pricing" className="text-gray-700 font-medium transition nav-link">Pricing</a>
-            <a href="#team" className="text-gray-700 font-medium transition nav-link">Meet the Team</a>
+            <a href="#about" className="font-medium transition nav-link" style={{ color: "#585858" }}>About Us</a>
+            <a href="#services" className="font-medium transition nav-link" style={{ color: "#585858" }}>Services</a>
+            <a href="#why-us" className="font-medium transition nav-link" style={{ color: "#585858" }}>Why Us</a>
+            <a href="#pricing" className="font-medium transition nav-link" style={{ color: "#585858" }}>Pricing</a>
+            <a href="#team" className="font-medium transition nav-link" style={{ color: "#585858" }}>Meet the Team</a>
           </div>
         </div>
       </nav>
@@ -43,11 +43,11 @@ export default function Home() {
             <div className="flex flex-col justify-center space-y-6">
               <div>
                 <p className="font-medium text-lg mb-2" style={{ color: "rgb(110, 198, 202)" }}>Welcome to Elderly Ease</p>
-                <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+                <h1 className="text-4xl sm:text-5xl font-bold mb-4" style={{ color: "#585858" }}>
                   Because asking for help should feel easy
                 </h1>
               </div>
-              <p className="text-xl text-gray-700 leading-relaxed">
+              <p className="text-xl leading-relaxed" style={{ color: "#585858" }}>
                 Reliable support for elderly individuals, delivered with heart and connection.
               </p>
               <div className="flex gap-4 pt-4">
@@ -97,8 +97,8 @@ export default function Home() {
       {/* Services Section */}
       <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">Our Services</h2>
-          <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto text-lg">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>Our Services</h2>
+          <p className="text-center mb-12 max-w-2xl mx-auto text-lg" style={{ color: "#585858" }}>
             Comprehensive care tailored to your unique needs and lifestyle
           </p>
 
@@ -111,7 +111,7 @@ export default function Home() {
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because home should feel safe and welcoming.
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Housekeeping:</strong> Light cleaning such as rubbish removal, dishes, dusting, and laundry.</span>
@@ -147,7 +147,7 @@ export default function Home() {
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because life runs smoother with a helping hand.
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Transportation:</strong> Safe, reliable trips for appointments, errands, and social outings.</span>
@@ -175,7 +175,7 @@ export default function Home() {
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because staying connected should feel easy.
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Digital Support:</strong> Guidance with phones, TVs, apps, and social media.</span>
@@ -199,7 +199,7 @@ export default function Home() {
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because care should feel like connection.
               </p>
-              <ul className="space-y-2 text-gray-700">
+              <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Companionship:</strong> Friendly visits to ease isolation.</span>
@@ -265,10 +265,10 @@ export default function Home() {
       {/* Pricing Section */}
       <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">
+          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>
             Pricing Guide
           </h2>
-          <p className="text-center text-gray-600 mb-12 text-lg">
+          <p className="text-center mb-12 text-lg" style={{ color: "#585858" }}>
             Flexible pricing designed to fit your needs
           </p>
 
@@ -283,10 +283,10 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Essential Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R900</span>
-                  <span className="text-gray-600">/month</span>
+                  <span style={{ color: "#585858" }}>/month</span>
                 </div>
-                <p className="text-gray-700 mb-4 text-sm">4 hours per month</p>
-                <p className="text-gray-600 mb-6 flex-grow">Perfect for light support and everyday tasks.</p>
+                <p className="mb-4 text-sm" style={{ color: "#585858" }}>4 hours per month</p>
+                <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Perfect for light support and everyday tasks.</p>
                 <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#6ec6ca" }}>
                   Choose Plan
                 </button>
@@ -302,10 +302,10 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Comfort Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R1350</span>
-                  <span className="text-gray-600">/month</span>
+                  <span style={{ color: "#585858" }}>/month</span>
                 </div>
-                <p className="text-gray-700 mb-4 text-sm">6 hours per month</p>
-                <p className="text-gray-600 mb-6 flex-grow">Ongoing support and peace of mind.</p>
+                <p className="mb-4 text-sm" style={{ color: "#585858" }}>6 hours per month</p>
+                <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Ongoing support and peace of mind.</p>
                 <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#7b3f7e" }}>
                   Choose Plan
                 </button>
@@ -321,10 +321,10 @@ export default function Home() {
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Complete Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R1800</span>
-                  <span className="text-gray-600">/month</span>
+                  <span style={{ color: "#585858" }}>/month</span>
                 </div>
-                <p className="text-gray-700 mb-4 text-sm">8 hours per month</p>
-                <p className="text-gray-600 mb-6 flex-grow">Comprehensive care with connection and confidence.</p>
+                <p className="mb-4 text-sm" style={{ color: "#585858" }}>8 hours per month</p>
+                <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Comprehensive care with connection and confidence.</p>
                 <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#6ec6ca" }}>
                   Choose Plan
                 </button>
@@ -336,16 +336,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Custom Ease</h3>
-              <p className="text-gray-600 mb-4">Tailored to your unique needs. Mix and match services.</p>
+              <p className="mb-4" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
               <button className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>Get Custom Quote →</button>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Simple Hourly Ease</h3>
-              <p className="text-gray-600 mb-4">
+              <p className="mb-4" style={{ color: "#585858" }}>
                 <span className="text-2xl font-bold" style={{ color: "#6ec6ca" }}>R250</span> / hour
               </p>
-              <p className="text-gray-600 text-sm mb-4">Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
+              <p className="text-sm mb-4" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
             </div>
           </div>
         </div>
@@ -418,7 +418,7 @@ export default function Home() {
       {/* Contact Section */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">Get In Touch</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8" style={{ color: "#585858" }}>Get In Touch</h2>
 
           <div className="bg-white rounded-xl shadow-lg p-12 space-y-8">
             <h3 className="text-2xl font-bold" style={{ color: "#7b3f7e" }}>
@@ -431,7 +431,7 @@ export default function Home() {
                   <FaWhatsapp />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-700 mb-2">WhatsApp</p>
+                  <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
                   <a href="https://wa.me/27689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     Start Chat
                   </a>
@@ -443,7 +443,7 @@ export default function Home() {
                   <FiMail />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-700 mb-2">Email</p>
+                  <p className="font-medium mb-2" style={{ color: "#585858" }}>Email</p>
                   <a href="mailto:hello@elderlyease.co.za" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     hello@elderlyease.co.za
                   </a>
@@ -455,7 +455,7 @@ export default function Home() {
                   <FiPhone />
                 </div>
                 <div>
-                  <p className="font-medium text-gray-700 mb-2">Phone</p>
+                  <p className="font-medium mb-2" style={{ color: "#585858" }}>Phone</p>
                   <a href="tel:0689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     068 929 2847
                   </a>

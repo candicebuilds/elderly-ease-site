@@ -24,9 +24,9 @@ export default function TransportPolicy() {
       {/* Main Content */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-12">Transport Policy</h1>
-          
-          <div className="space-y-8 text-gray-700">
+          <h1 className="text-4xl sm:text-5xl font-bold mb-12" style={{ color: "#585858" }}>Transport Policy</h1>
+
+          <div className="space-y-8" style={{ color: "#585858" }}>
             <p className="text-lg leading-relaxed">
               To ensure every journey is safe and comfortable, the following rules apply:
             </p>
