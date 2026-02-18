@@ -364,16 +364,17 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
+              <div className="overflow-hidden" style={{ aspectRatio: "4/5", boxShadow: "0 15px 0px rgba(0,0,0,0.08)" }}>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F72eaa970d66044c69e71df28a725307d"
                   alt="Candice"
                   className="w-full h-full object-cover"
+                  style={{ borderRadius: "12px" }}
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Candice</h3>
-                <p className="text-gray-700">
+              <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
+                <h3 className="font-bold" style={{ color: "#7b3f7e", fontSize: "22px", marginBottom: "12px", fontFamily: "Poppins, sans-serif", fontWeight: "700" }}>Candice</h3>
+                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
                   Candice keeps the hinges oiled and the spirits lifted. From booking appointments to wrapping gifts and even wrangling tricky tech, she adds a dash of creativity to everyday fixes—making life run smoother with a smile.
                 </p>
               </div>
@@ -381,16 +382,17 @@ export default function Home() {
 
             {/* Team Member 2 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
+              <div className="overflow-hidden" style={{ aspectRatio: "4/5", boxShadow: "0 15px 0px rgba(0,0,0,0.08)" }}>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F73ef83d597f84dd981717407c1c53fd9"
                   alt="Colleen"
                   className="w-full h-full object-cover"
+                  style={{ borderRadius: "12px" }}
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Colleen</h3>
-                <p className="text-gray-700">
+              <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
+                <h3 className="font-bold" style={{ color: "#7b3f7e", fontSize: "22px", marginBottom: "12px", fontFamily: "Poppins, sans-serif", fontWeight: "700" }}>Colleen</h3>
+                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
                   Colleen is the sunshine in every visit. Whether she's tending gardens, puzzling over crosswords, or chauffeuring with care, she turns errands into adventures and companionship into laughter.
                 </p>
               </div>
@@ -398,16 +400,17 @@ export default function Home() {
 
             {/* Team Member 3 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 overflow-hidden">
+              <div className="overflow-hidden" style={{ aspectRatio: "4/5", boxShadow: "0 15px 0px rgba(0,0,0,0.08)" }}>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F56e6ecc40ac84df18410ef914130da4c"
                   alt="Carolyn"
                   className="w-full h-full object-cover"
+                  style={{ borderRadius: "12px" }}
                 />
               </div>
-              <div className="p-6">
-                <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Carolyn</h3>
-                <p className="text-gray-700">
+              <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
+                <h3 className="font-bold" style={{ color: "#7b3f7e", fontSize: "22px", marginBottom: "12px", fontFamily: "Poppins, sans-serif", fontWeight: "700" }}>Carolyn</h3>
+                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
                   Carolyn is happiest with paws pattering beside her. She's the walking buddy pets adore and the everyday helper households rely on—whether it's a wagging tail, a tidy corner, or a cherished story, Carolyn brings heart to every step.
                 </p>
               </div>
