@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-import { FiPhone, FiMail } from 'react-icons/fi'
+import { FiPhone, FiMail, FiFacebook } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Home() {
@@ -505,8 +505,9 @@ export default function Home() {
           <div className="border-t border-gray-700 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <p className="text-sm">© 2026 Elderly Ease. All rights reserved.</p>
-              <a href="https://facebook.com/ElderlyEase" className="hover:text-white transition text-sm">
-                🔵 facebook.com/ElderlyEase
+              <a href="https://facebook.com/ElderlyEase" className="hover:text-white transition text-sm flex items-center gap-2">
+                <FiFacebook className="w-4 h-4" style={{ color: "white" }} />
+                facebook.com/ElderlyEase
               </a>
             </div>
           </div>
