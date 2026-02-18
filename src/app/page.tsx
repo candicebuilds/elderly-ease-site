@@ -329,13 +329,13 @@ export default function Home() {
           {/* Additional Pricing Options */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Custom Ease</h3>
+              <h3 className="text-xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
               <p className="mb-4" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
               <button className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>Get Custom Quote →</button>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Simple Hourly Ease</h3>
+              <h3 className="text-xl font-bold mb-2" style={{ color: "#585858" }}>Simple Hourly Ease</h3>
               <p className="mb-4" style={{ color: "#585858" }}>
                 <span className="text-2xl font-bold" style={{ color: "#6ec6ca" }}>R250</span> / hour
               </p>
