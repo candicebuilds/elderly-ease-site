@@ -65,10 +65,6 @@ html {
   color: #e1a5af !important;
 }
 
-/* About Us link hover color */
-a[href="#about"]:hover {
-  color: #6ec6ca;
-}
 
 /* Footer Quick Links and Legal links hover color */
 .footer-link {
