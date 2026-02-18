@@ -236,28 +236,28 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
-              <h3 className="text-xl font-bold text-rose-200 mb-3">Dignity First</h3>
+              <h3 className="text-xl font-bold mb-3" style={{ color: "#e1a5af" }}>Dignity First</h3>
               <p className="text-white">
                 Every service is delivered with respect, care, and a focus on independence.
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
-              <h3 className="text-xl font-bold text-rose-200 mb-3">Transparent & Reliable</h3>
+              <h3 className="text-xl font-bold mb-3" style={{ color: "#e1a5af" }}>Transparent & Reliable</h3>
               <p className="text-white">
                 Clear policies, fair pricing, and trustworthy support you can count on.
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
-              <h3 className="text-xl font-bold text-rose-200 mb-3">Family‑Run with Heart</h3>
+              <h3 className="text-xl font-bold mb-3" style={{ color: "#e1a5af" }}>Family‑Run with Heart</h3>
               <p className="text-white">
                 A local, family‑driven business built on compassion and community.
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
-              <h3 className="text-xl font-bold text-rose-200 mb-3">Holistic Support</h3>
+              <h3 className="text-xl font-bold mb-3" style={{ color: "#e1a5af" }}>Holistic Support</h3>
               <p className="text-white">
                 From daily tasks to companionship and hobbies, we make life easier and more joyful.
               </p>
@@ -364,7 +364,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 bg-gradient-to-br from-rose-200 to-purple-200 flex items-center justify-center">
+              <div className="h-64 flex items-center justify-center" style={{ backgroundImage: "linear-gradient(to bottom right, #e1a5af, #d8c5db)" }}>
                 <span className="text-6xl">👩‍💼</span>
               </div>
               <div className="p-6">
@@ -377,7 +377,7 @@ export default function Home() {
 
             {/* Team Member 2 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 bg-gradient-to-br from-teal-200 to-purple-200 flex items-center justify-center">
+              <div className="h-64 flex items-center justify-center" style={{ backgroundImage: "linear-gradient(to bottom right, #b3e5e0, #d8c5db)" }}>
                 <span className="text-6xl">👩‍🌾</span>
               </div>
               <div className="p-6">
@@ -390,7 +390,7 @@ export default function Home() {
 
             {/* Team Member 3 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 bg-gradient-to-br from-rose-200 to-teal-200 flex items-center justify-center">
+              <div className="h-64 flex items-center justify-center" style={{ backgroundImage: "linear-gradient(to bottom right, #e1a5af, #b3e5e0)" }}>
                 <span className="text-6xl">🐕‍🦺</span>
               </div>
               <div className="p-6">
