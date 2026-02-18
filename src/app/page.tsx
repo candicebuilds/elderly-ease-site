@@ -108,7 +108,7 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Service 1: Home Management */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+            <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Home Management & Daily Living
               </h3>
@@ -144,7 +144,7 @@ export default function Home() {
             </div>
 
             {/* Service 2: Concierge */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+            <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Personal Concierge & Logistics
               </h3>
@@ -172,7 +172,7 @@ export default function Home() {
             </div>
 
             {/* Service 3: Technology */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+            <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Technology & Digital Confidence
               </h3>
@@ -196,7 +196,7 @@ export default function Home() {
             </div>
 
             {/* Service 4: Wellness */}
-            <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
+            <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Wellness, Companionship & Legacy
               </h3>
