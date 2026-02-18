@@ -489,10 +489,10 @@ export default function Home() {
             <div>
               <h4 className="font-bold text-white mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#terms" className="hover:text-white transition">Terms of Service</a></li>
-                <li><a href="#privacy" className="hover:text-white transition">Privacy Notice</a></li>
-                <li><a href="#transport" className="hover:text-white transition">Transport Policy</a></li>
-                <li><a href="#contact" className="hover:text-white transition">Contact</a></li>
+                <li><a href="/terms" className="hover:text-white transition">Terms of Service</a></li>
+                <li><a href="/privacy" className="hover:text-white transition">Privacy Notice</a></li>
+                <li><a href="/transport" className="hover:text-white transition">Transport Policy</a></li>
+                <li><a href="/#contact" className="hover:text-white transition">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -508,69 +508,6 @@ export default function Home() {
         </div>
       </footer>
 
-      {/* Terms & Policies Sections (Hidden by default, can be shown via modal/page) */}
-      <div id="legal-sections" className="hidden">
-        {/* Terms of Service */}
-        <section id="terms" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50 max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Terms of Service</h2>
-          <div className="space-y-6 text-gray-700">
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Rates</h3>
-              <p>Our standard service rate is R250 per hour.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Expenses</h3>
-              <p>We will invoice you for any agreed reimbursements (e.g., groceries or light bulbs) alongside our service fee.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Payment Methods</h3>
-              <p>For your convenience, we accept Cash, EFT, or Card (via our mobile card machine).</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Cancellations</h3>
-              <p>Please provide 24 hours' notice for cancellations to avoid a 50% late-cancellation fee.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Payments</h3>
-              <p>Invoices are payable within 7 days of the invoice date.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Transport Policy */}
-        <section id="transport" className="py-20 px-4 sm:px-6 lg:px-8 bg-white max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Transport Policy</h2>
-          <p className="text-gray-700 mb-6">
-            To ensure every journey is safe and comfortable, the following rules apply:
-          </p>
-          <div className="space-y-6 text-gray-700">
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Vehicle Condition</h3>
-              <p>We use roadworthy vehicles that are regularly maintained and insured.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Safety First</h3>
-              <p>Drivers hold valid SA licenses. Seatbelts must be worn at all times.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Using Your Vehicle</h3>
-              <p>If you request that we drive your personal vehicle, you confirm that the vehicle is roadworthy and that your insurance covers a third-party driver.</p>
-            </div>
-            <div>
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Incidents</h3>
-              <p>In the event of a breakdown or accident, we will immediately secure your safety and contact your emergency representative.</p>
-            </div>
-          </div>
-        </section>
-
-        {/* Privacy Notice */}
-        <section id="privacy" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50 max-w-4xl mx-auto">
-          <h2 className="text-3xl font-bold text-gray-900 mb-8">Privacy Notice (POPIA Compliance)</h2>
-          <p className="text-gray-700 leading-relaxed">
-            Elderly Ease respects your privacy. We only collect the personal information necessary to provide your service (such as your name, address, and emergency contacts). We keep this info secure and will never share it with third parties unless required for a medical emergency. You may ask to see or delete your info at any time.
-          </p>
-        </section>
-      </div>
     </div>
   );
 }
