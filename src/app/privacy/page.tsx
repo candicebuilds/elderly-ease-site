@@ -10,7 +10,7 @@ export default function PrivacyNotice() {
               alt="Elderly Ease Logo"
               className="w-10 h-10"
             />
-            <span className="font-bold" style={{ color: "#e1a5af" }}>Elderly Ease</span>
+            <span className="font-bold" style={{ color: "#7b3f7e" }}>Elderly Ease</span>
           </a>
         </div>
       </nav>
