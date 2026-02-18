@@ -35,6 +35,7 @@ export default function Home() {
             <a href="#why-us" className="font-medium nav-link">Why Us</a>
             <a href="#pricing" className="font-medium nav-link">Pricing</a>
             <a href="#team" className="font-medium nav-link">Meet the Team</a>
+            <a href="#get-in-touch" className="font-medium nav-link">Contact Us</a>
           </div>
         </div>
       </nav>
