@@ -29,13 +29,6 @@ export default function Home() {
             <a href="#pricing" className="text-gray-700 font-medium transition nav-link">Pricing</a>
             <a href="#team" className="text-gray-700 font-medium transition nav-link">Meet the Team</a>
           </div>
-
-          <button
-            className="text-white px-6 py-2 rounded-full font-medium transition hover:opacity-90"
-            style={{ backgroundColor: "#6ec6ca" }}
-          >
-            Contact Us
-          </button>
         </div>
       </nav>
 
