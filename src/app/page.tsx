@@ -435,6 +435,7 @@ export default function Home() {
                   <FaWhatsapp />
                 </div>
                 <div>
+                  <span className="inline-block text-xs font-medium px-2 py-1 rounded mb-2" style={{ backgroundColor: "#6ec6ca", color: "white" }}>Fastest Response</span>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
                   <a href="https://wa.me/27689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     Start Chat
@@ -456,6 +457,7 @@ export default function Home() {
                   <a href="mailto:hello@elderlyease.co.za" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     hello@elderlyease.co.za
                   </a>
+                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for custom quotes & non-urgent questions</p>
                 </div>
               </div>
 
@@ -468,6 +470,7 @@ export default function Home() {
                   <a href="tel:0689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     068 929 2847
                   </a>
+                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Emergency only / May be unavailable while on duty</p>
                 </div>
               </div>
             </div>
