@@ -504,7 +504,7 @@ export default function Home() {
 
           <div className="border-t border-gray-700 pt-8">
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-              <p className="text-sm">© 2024 Elderly Ease. All rights reserved.</p>
+              <p className="text-sm">© 2026 Elderly Ease. All rights reserved.</p>
               <a href="https://facebook.com/ElderlyEase" className="hover:text-white transition text-sm">
                 🔵 facebook.com/ElderlyEase
               </a>
