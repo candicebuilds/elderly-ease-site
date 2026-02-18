@@ -35,35 +35,35 @@ export default function TermsOfService() {
           
           <div className="space-y-8 text-gray-700">
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Rates</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Rates</h2>
               <p className="text-lg leading-relaxed">
                 Our standard service rate is R250 per hour.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Expenses</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Expenses</h2>
               <p className="text-lg leading-relaxed">
                 We will invoice you for any agreed reimbursements (e.g., groceries or light bulbs) alongside our service fee.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Payment Methods</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Payment Methods</h2>
               <p className="text-lg leading-relaxed">
                 For your convenience, we accept Cash, EFT, or Card (via our mobile card machine).
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Cancellations</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Cancellations</h2>
               <p className="text-lg leading-relaxed">
                 Please provide 24 hours' notice for cancellations to avoid a 50% late-cancellation fee.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Payments</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Payments</h2>
               <p className="text-lg leading-relaxed">
                 Invoices are payable within 7 days of the invoice date.
               </p>

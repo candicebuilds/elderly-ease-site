@@ -55,10 +55,10 @@ export default function Home() {
                 Reliable support for elderly individuals, delivered with heart and connection.
               </p>
               <div className="flex gap-4 pt-4">
-                <button className="bg-purple-800 hover:bg-purple-900 text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105">
+                <button className="text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105" style={{ backgroundColor: "#7b3f7e" }}>
                   Contact Us
                 </button>
-                <button className="border-2 border-purple-800 text-purple-800 hover:bg-purple-50 px-8 py-3 rounded-full font-medium transition">
+                <button className="px-8 py-3 rounded-full font-medium transition hover:bg-gray-100" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
                   Learn More
                 </button>
               </div>
@@ -109,7 +109,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Service 1: Home Management */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <h3 className="text-2xl font-bold text-purple-800 mb-3">
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Home Management & Daily Living
               </h3>
               <p className="text-teal-600 font-medium italic mb-4">
@@ -145,7 +145,7 @@ export default function Home() {
 
             {/* Service 2: Concierge */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <h3 className="text-2xl font-bold text-purple-800 mb-3">
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Personal Concierge & Logistics
               </h3>
               <p className="text-teal-600 font-medium italic mb-4">
@@ -173,7 +173,7 @@ export default function Home() {
 
             {/* Service 3: Technology */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <h3 className="text-2xl font-bold text-purple-800 mb-3">
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Technology & Digital Confidence
               </h3>
               <p className="text-teal-600 font-medium italic mb-4">
@@ -197,7 +197,7 @@ export default function Home() {
 
             {/* Service 4: Wellness */}
             <div className="bg-white p-8 rounded-xl shadow-md hover:shadow-lg transition">
-              <h3 className="text-2xl font-bold text-purple-800 mb-3">
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Wellness, Companionship & Legacy
               </h3>
               <p className="text-teal-600 font-medium italic mb-4">
@@ -284,7 +284,7 @@ export default function Home() {
                 <div className="mb-4 w-12 h-12">
                   <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F53946ed7695d4e6aa5890703693bbeb4" alt="Essential icon" className="w-full h-full" />
                 </div>
-                <h3 className="text-2xl font-bold text-purple-800 mb-2">Essential Ease</h3>
+                <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Essential Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-teal-600">R900</span>
                   <span className="text-gray-600">/month</span>
@@ -299,18 +299,18 @@ export default function Home() {
 
             {/* Pricing Card 2 - Comfort */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition border-t-4" style={{ borderTopColor: "#7b3f7e" }}>
-              <div className="p-8 bg-gradient-to-br from-purple-50 to-transparent flex flex-col h-full">
+              <div className="p-8 bg-gradient-to-br from-gray-50 to-transparent flex flex-col h-full">
                 <div className="mb-4 w-12 h-12">
                   <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F0b6a3b8e873446ef97de1c745a6826b0" alt="Comfort icon" className="w-full h-full" />
                 </div>
-                <h3 className="text-2xl font-bold text-purple-800 mb-2">Comfort Ease</h3>
+                <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Comfort Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-teal-600">R1350</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <p className="text-gray-700 mb-4 text-sm">6 hours per month</p>
                 <p className="text-gray-600 mb-6 flex-grow">Ongoing support and peace of mind.</p>
-                <button className="w-full bg-purple-800 hover:bg-purple-900 text-white py-2 rounded-lg font-medium transition mt-auto">
+                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#7b3f7e" }}>
                   Choose Plan
                 </button>
               </div>
@@ -322,7 +322,7 @@ export default function Home() {
                 <div className="mb-4 w-12 h-12">
                   <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F8ff43d7b40b3412cb78dfd56a55d1040" alt="Complete icon" className="w-full h-full" />
                 </div>
-                <h3 className="text-2xl font-bold text-purple-800 mb-2">Complete Ease</h3>
+                <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Complete Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-teal-600">R1800</span>
                   <span className="text-gray-600">/month</span>
@@ -339,13 +339,13 @@ export default function Home() {
           {/* Additional Pricing Options */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Custom Ease</h3>
+              <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Custom Ease</h3>
               <p className="text-gray-600 mb-4">Tailored to your unique needs. Mix and match services.</p>
               <button className="text-teal-600 hover:text-teal-700 font-medium">Get Custom Quote →</button>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-xl font-bold text-purple-800 mb-2">Simple Hourly Ease</h3>
+              <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Simple Hourly Ease</h3>
               <p className="text-gray-600 mb-4">
                 <span className="text-2xl font-bold text-teal-600">R250</span> / hour
               </p>
@@ -368,7 +368,7 @@ export default function Home() {
                 <span className="text-6xl">👩‍💼</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-purple-800 mb-3">Candice</h3>
+                <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Candice</h3>
                 <p className="text-gray-700">
                   Candice keeps the hinges oiled and the spirits lifted. From booking appointments to wrapping gifts and even wrangling tricky tech, she adds a dash of creativity to everyday fixes—making life run smoother with a smile.
                 </p>
@@ -381,7 +381,7 @@ export default function Home() {
                 <span className="text-6xl">👩‍🌾</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-purple-800 mb-3">Colleen</h3>
+                <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Colleen</h3>
                 <p className="text-gray-700">
                   Colleen is the sunshine in every visit. Whether she's tending gardens, puzzling over crosswords, or chauffeuring with care, she turns errands into adventures and companionship into laughter.
                 </p>
@@ -394,7 +394,7 @@ export default function Home() {
                 <span className="text-6xl">🐕‍🦺</span>
               </div>
               <div className="p-6">
-                <h3 className="text-2xl font-bold text-purple-800 mb-3">Carolyn</h3>
+                <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Carolyn</h3>
                 <p className="text-gray-700">
                   Carolyn is happiest with paws pattering beside her. She's the walking buddy pets adore and the everyday helper households rely on—whether it's a wagging tail, a tidy corner, or a cherished story, Carolyn brings heart to every step.
                 </p>
@@ -410,7 +410,7 @@ export default function Home() {
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8">Get In Touch</h2>
 
           <div className="bg-white rounded-xl shadow-lg p-12 space-y-8">
-            <h3 className="text-2xl font-bold text-purple-800">
+            <h3 className="text-2xl font-bold" style={{ color: "#7b3f7e" }}>
               Let's make life easier together
             </h3>
 
@@ -446,7 +446,7 @@ export default function Home() {
               </div>
             </div>
 
-            <button className="bg-purple-800 hover:bg-purple-900 text-white px-8 py-3 rounded-full font-medium transition mx-auto block">
+            <button className="text-white px-8 py-3 rounded-full font-medium transition mx-auto block hover:opacity-90" style={{ backgroundColor: "#7b3f7e" }}>
               Schedule A Call
             </button>
           </div>

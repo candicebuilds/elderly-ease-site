@@ -39,28 +39,28 @@ export default function TransportPolicy() {
             </p>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Vehicle Condition</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Vehicle Condition</h2>
               <p className="text-lg leading-relaxed">
                 We use roadworthy vehicles that are regularly maintained and insured.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Safety First</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Safety First</h2>
               <p className="text-lg leading-relaxed">
                 Drivers hold valid SA licenses. Seatbelts must be worn at all times.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Using Your Vehicle</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Using Your Vehicle</h2>
               <p className="text-lg leading-relaxed">
                 If you request that we drive your personal vehicle, you confirm that the vehicle is roadworthy and that your insurance covers a third-party driver.
               </p>
             </div>
 
             <div>
-              <h2 className="text-2xl font-bold text-purple-800 mb-3">Incidents</h2>
+              <h2 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Incidents</h2>
               <p className="text-lg leading-relaxed">
                 In the event of a breakdown or accident, we will immediately secure your safety and contact your emergency representative.
               </p>
