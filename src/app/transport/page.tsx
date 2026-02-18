@@ -46,7 +46,7 @@ export default function TransportPolicy() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-300">
-            <a href="/" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
+            <a href="/" className="font-medium footer-link" style={{ color: "#585858" }}>
               ← Back to Home
             </a>
           </div>
