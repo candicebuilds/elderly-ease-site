@@ -231,7 +231,7 @@ export default function Home() {
         <div className="leaf-bg-bottom absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
-            Why Choose Elderly Ease
+            Why Choose Us
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -270,7 +270,7 @@ export default function Home() {
       <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">
-            Elderly Ease Pricing Guide
+            Pricing Guide
           </h2>
           <p className="text-center text-gray-600 mb-12 text-lg">
             Flexible pricing designed to fit your needs
@@ -296,9 +296,6 @@ export default function Home() {
             {/* Pricing Card 2 - Highlighted */}
             <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition border-t-4 transform md:scale-105" style={{ borderTopColor: "#7b3f7e" }}>
               <div className="p-8 bg-gradient-to-br from-purple-50 to-transparent">
-                <div className="mb-2 inline-block bg-purple-800 text-white px-3 py-1 rounded-full text-sm font-medium">
-                  Most Popular
-                </div>
                 <h3 className="text-2xl font-bold text-purple-800 mb-2">Comfort Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-teal-600">R1350</span>
