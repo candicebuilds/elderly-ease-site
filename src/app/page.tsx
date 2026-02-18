@@ -6,7 +6,7 @@ export default function Home() {
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-amber-50 border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-          <div className="flex items-center gap-2">
+          <a href="#" className="flex items-center gap-2 hover:opacity-80 transition">
             <div
               className="w-10 h-10 rounded-full flex items-center justify-center"
               style={{
@@ -19,7 +19,7 @@ export default function Home() {
               <span className="text-white font-bold text-sm hidden">EE</span>
             </div>
             <span className="font-bold" style={{ color: "#7b3f7e" }}>Elderly Ease</span>
-          </div>
+          </a>
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
