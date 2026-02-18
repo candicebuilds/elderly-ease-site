@@ -433,10 +433,10 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
-                  <span className="inline-block text-xs font-medium px-2 py-1 rounded" style={{ backgroundColor: "#6ec6ca", color: "white" }}>Fastest Response</span>
-                  <a href="https://wa.me/27689292847" className="font-medium hover:opacity-80 transition block mt-2" style={{ color: "#6ec6ca" }}>
+                  <a href="https://wa.me/27689292847" className="font-medium hover:opacity-80 transition block mb-2" style={{ color: "#6ec6ca" }}>
                     Start Chat
                   </a>
+                  <span className="inline-block text-xs font-medium px-2 py-1 rounded" style={{ backgroundColor: "#6ec6ca", color: "white" }}>Fastest Response</span>
                 </div>
               </div>
 
