@@ -112,32 +112,32 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Home Management & Daily Living
               </h3>
-              <p className="text-teal-600 font-medium italic mb-4">
+              <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because home should feel safe and welcoming.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Housekeeping:</strong> Light cleaning such as rubbish removal, dishes, dusting, and laundry.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Meal Preparation:</strong> Support with planning, shopping, and cooking.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>House Maintenance:</strong> Everyday fixes like oiling hinges, hanging pictures, or changing bulbs.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Seasonal Prep:</strong> Patio furniture, wardrobe swaps, and organizing seasonal items.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Decluttering & Downsizing:</strong> Closet clean‑outs, donations, or packing boxes.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Pet Care:</strong> Dog walking, litter box cleaning, and everyday pet support.</span>
                 </li>
               </ul>
@@ -148,24 +148,24 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Personal Concierge & Logistics
               </h3>
-              <p className="text-teal-600 font-medium italic mb-4">
+              <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because life runs smoother with a helping hand.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Transportation:</strong> Safe, reliable trips for appointments, errands, and social outings.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Shopping Assistance:</strong> Groceries, pharmacy pickups, and more.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Appointment Scheduling:</strong> Booking doctors, hairdressers, or home repairs.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Gift Concierge:</strong> Selecting, wrapping, and mailing gifts for loved ones.</span>
                 </li>
               </ul>
@@ -176,20 +176,20 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Technology & Digital Confidence
               </h3>
-              <p className="text-teal-600 font-medium italic mb-4">
+              <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because staying connected should feel easy.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Digital Support:</strong> Guidance with phones, TVs, apps, and social media.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Cybersecurity Basics:</strong> Strong passwords and spotting phishing attempts.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Digital Legacy:</strong> Digitizing photo albums and organizing memories to share with family.</span>
                 </li>
               </ul>
@@ -200,24 +200,24 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
                 Wellness, Companionship & Legacy
               </h3>
-              <p className="text-teal-600 font-medium italic mb-4">
+              <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
                 Because care should feel like connection.
               </p>
               <ul className="space-y-2 text-gray-700">
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Companionship:</strong> Friendly visits to ease isolation.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Walking Buddy:</strong> Gentle exercise with a supportive partner.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Memoir & Legacy:</strong> Recording life stories, family recipes, or labeling heirlooms.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="text-teal-500 font-bold">•</span>
+                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
                   <span><strong>Hobbies & Pastimes:</strong> Gardening, puzzles, games, and activities that spark joy.</span>
                 </li>
               </ul>
@@ -286,12 +286,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Essential Ease</h3>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-teal-600">R900</span>
+                  <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R900</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <p className="text-gray-700 mb-4 text-sm">4 hours per month</p>
                 <p className="text-gray-600 mb-6 flex-grow">Perfect for light support and everyday tasks.</p>
-                <button className="w-full bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-lg font-medium transition mt-auto">
+                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#6ec6ca" }}>
                   Choose Plan
                 </button>
               </div>
@@ -305,7 +305,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Comfort Ease</h3>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-teal-600">R1350</span>
+                  <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R1350</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <p className="text-gray-700 mb-4 text-sm">6 hours per month</p>
@@ -324,12 +324,12 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Complete Ease</h3>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold text-teal-600">R1800</span>
+                  <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R1800</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <p className="text-gray-700 mb-4 text-sm">8 hours per month</p>
                 <p className="text-gray-600 mb-6 flex-grow">Comprehensive care with connection and confidence.</p>
-                <button className="w-full bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-lg font-medium transition mt-auto">
+                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#6ec6ca" }}>
                   Choose Plan
                 </button>
               </div>
@@ -341,13 +341,13 @@ export default function Home() {
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Custom Ease</h3>
               <p className="text-gray-600 mb-4">Tailored to your unique needs. Mix and match services.</p>
-              <button className="text-teal-600 hover:text-teal-700 font-medium">Get Custom Quote →</button>
+              <button className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>Get Custom Quote →</button>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Simple Hourly Ease</h3>
               <p className="text-gray-600 mb-4">
-                <span className="text-2xl font-bold text-teal-600">R250</span> / hour
+                <span className="text-2xl font-bold" style={{ color: "#6ec6ca" }}>R250</span> / hour
               </p>
               <p className="text-gray-600 text-sm mb-4">Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
             </div>
@@ -419,7 +419,7 @@ export default function Home() {
                 <div className="text-4xl">💬</div>
                 <div>
                   <p className="font-medium text-gray-700 mb-2">WhatsApp</p>
-                  <a href="https://wa.me/27689292847" className="text-teal-600 hover:text-teal-700 font-medium">
+                  <a href="https://wa.me/27689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     Start Chat
                   </a>
                 </div>
@@ -429,7 +429,7 @@ export default function Home() {
                 <div className="text-4xl">📧</div>
                 <div>
                   <p className="font-medium text-gray-700 mb-2">Email</p>
-                  <a href="mailto:hello@elderlyease.co.za" className="text-teal-600 hover:text-teal-700 font-medium">
+                  <a href="mailto:hello@elderlyease.co.za" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     hello@elderlyease.co.za
                   </a>
                 </div>
@@ -439,7 +439,7 @@ export default function Home() {
                 <div className="text-4xl">📞</div>
                 <div>
                   <p className="font-medium text-gray-700 mb-2">Phone</p>
-                  <a href="tel:0689292847" className="text-teal-600 hover:text-teal-700 font-medium">
+                  <a href="tel:0689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     068 929 2847
                   </a>
                 </div>

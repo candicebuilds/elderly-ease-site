@@ -40,7 +40,7 @@ export default function PrivacyNotice() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-300">
-            <a href="/" className="text-teal-600 hover:text-teal-700 font-medium">
+            <a href="/" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
               ← Back to Home
             </a>
           </div>
