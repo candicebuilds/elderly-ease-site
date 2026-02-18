@@ -20,6 +20,16 @@ export default function Home() {
             </div>
             <span className="font-bold text-purple-900">Elderly Ease</span>
           </div>
+
+          {/* Navigation Links */}
+          <div className="hidden md:flex items-center gap-8">
+            <a href="#about" className="text-gray-700 hover:text-purple-800 font-medium transition">About Us</a>
+            <a href="#services" className="text-gray-700 hover:text-purple-800 font-medium transition">Services</a>
+            <a href="#why-us" className="text-gray-700 hover:text-purple-800 font-medium transition">Why Us</a>
+            <a href="#pricing" className="text-gray-700 hover:text-purple-800 font-medium transition">Pricing</a>
+            <a href="#team" className="text-gray-700 hover:text-purple-800 font-medium transition">Meet The Team</a>
+          </div>
+
           <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-full font-medium transition">
             Contact Us
           </button>
@@ -64,7 +74,7 @@ export default function Home() {
       </section>
 
       {/* About Us Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#e1a5af" }}>
+      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#e1a5af" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">About Us</h2>
@@ -86,7 +96,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">Our Services</h2>
           <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto text-lg">
@@ -214,7 +224,7 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#7b3f7e" }}>
+      <section id="why-us" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#7b3f7e" }}>
         <div className="leaf-bg-bottom absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
@@ -254,7 +264,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4 text-center">
             Elderly Ease Pricing Guide
@@ -336,7 +346,7 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#6ec6ca" }}>
+      <section id="team" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#6ec6ca" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-6xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">Meet The Team</h2>
