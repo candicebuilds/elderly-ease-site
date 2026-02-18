@@ -57,7 +57,7 @@ export default function PrivacyNotice() {
                 >
                   <span className="text-white font-bold text-xs hidden">EE</span>
                 </div>
-                <span className="font-bold text-white">Elderly Ease</span>
+                <span className="font-bold" style={{ color: "#e1a5af" }}>Elderly Ease</span>
               </div>
               <p className="text-sm">Reliable support for elderly individuals, delivered with heart and connection.</p>
             </div>
