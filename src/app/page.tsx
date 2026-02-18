@@ -486,21 +486,21 @@ export default function Home() {
             <div>
               <h4 className="font-bold text-white mb-4">Quick Links</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#about" className="hover:text-white transition">About Us</a></li>
-                <li><a href="#services" className="hover:text-white transition">Services</a></li>
-                <li><a href="#why-us" className="hover:text-white transition">Why Us</a></li>
-                <li><a href="#pricing" className="hover:text-white transition">Pricing</a></li>
-                <li><a href="#team" className="hover:text-white transition">Meet The Team</a></li>
+                <li><a href="#about" className="transition footer-link" style={{ color: "inherit" }}>About Us</a></li>
+                <li><a href="#services" className="transition footer-link" style={{ color: "inherit" }}>Services</a></li>
+                <li><a href="#why-us" className="transition footer-link" style={{ color: "inherit" }}>Why Us</a></li>
+                <li><a href="#pricing" className="transition footer-link" style={{ color: "inherit" }}>Pricing</a></li>
+                <li><a href="#team" className="transition footer-link" style={{ color: "inherit" }}>Meet The Team</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-bold text-white mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/terms" className="hover:text-white transition">Terms of Service</a></li>
-                <li><a href="/privacy" className="hover:text-white transition">Privacy Notice</a></li>
-                <li><a href="/transport" className="hover:text-white transition">Transport Policy</a></li>
-                <li><a href="/#contact" className="hover:text-white transition">Contact</a></li>
+                <li><a href="/terms" className="transition footer-link" style={{ color: "inherit" }}>Terms of Service</a></li>
+                <li><a href="/privacy" className="transition footer-link" style={{ color: "inherit" }}>Privacy Notice</a></li>
+                <li><a href="/transport" className="transition footer-link" style={{ color: "inherit" }}>Transport Policy</a></li>
+                <li><a href="/#contact" className="transition footer-link" style={{ color: "inherit" }}>Contact</a></li>
               </ul>
             </div>
           </div>

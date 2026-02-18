@@ -64,3 +64,8 @@ html {
 a[href="#about"]:hover {
   color: #6ec6ca;
 }
+
+/* Footer Quick Links and Legal links hover color */
+.footer-link:hover {
+  color: #e1a5af;
+}
