@@ -278,48 +278,58 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {/* Pricing Card 1 */}
+            {/* Pricing Card 1 - Essential */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition border-t-4" style={{ borderTopColor: "#e1a5af" }}>
-              <div className="p-8">
+              <div className="p-8 flex flex-col h-full">
+                <div className="mb-4 w-12 h-12">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F53946ed7695d4e6aa5890703693bbeb4" alt="Essential icon" className="w-full h-full" />
+                </div>
                 <h3 className="text-2xl font-bold text-purple-800 mb-2">Essential Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-teal-600">R900</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <p className="text-gray-700 mb-4 text-sm">4 hours per month</p>
-                <p className="text-gray-600 mb-6">Perfect for light support and everyday tasks.</p>
-                <button className="w-full bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-lg font-medium transition">
+                <p className="text-gray-600 mb-6 flex-grow">Perfect for light support and everyday tasks.</p>
+                <button className="w-full bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-lg font-medium transition mt-auto">
                   Choose Plan
                 </button>
               </div>
             </div>
 
-            {/* Pricing Card 2 - Highlighted */}
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition border-t-4 transform md:scale-105" style={{ borderTopColor: "#7b3f7e" }}>
-              <div className="p-8 bg-gradient-to-br from-purple-50 to-transparent">
+            {/* Pricing Card 2 - Comfort */}
+            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition border-t-4" style={{ borderTopColor: "#7b3f7e" }}>
+              <div className="p-8 bg-gradient-to-br from-purple-50 to-transparent flex flex-col h-full">
+                <div className="mb-4 w-12 h-12">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F0b6a3b8e873446ef97de1c745a6826b0" alt="Comfort icon" className="w-full h-full" />
+                </div>
                 <h3 className="text-2xl font-bold text-purple-800 mb-2">Comfort Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-teal-600">R1350</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <p className="text-gray-700 mb-4 text-sm">6 hours per month</p>
-                <p className="text-gray-600 mb-6">Ongoing support and peace of mind.</p>
-                <button className="w-full bg-purple-800 hover:bg-purple-900 text-white py-2 rounded-lg font-medium transition">
+                <p className="text-gray-600 mb-6 flex-grow">Ongoing support and peace of mind.</p>
+                <button className="w-full bg-purple-800 hover:bg-purple-900 text-white py-2 rounded-lg font-medium transition mt-auto">
                   Choose Plan
                 </button>
               </div>
             </div>
 
-            {/* Pricing Card 3 */}
+            {/* Pricing Card 3 - Complete */}
             <div className="bg-white rounded-xl shadow-md overflow-hidden hover:shadow-xl transition border-t-4" style={{ borderTopColor: "#6ec6ca" }}>
-              <div className="p-8">
+              <div className="p-8 flex flex-col h-full">
+                <div className="mb-4 w-12 h-12">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F8ff43d7b40b3412cb78dfd56a55d1040" alt="Complete icon" className="w-full h-full" />
+                </div>
                 <h3 className="text-2xl font-bold text-purple-800 mb-2">Complete Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold text-teal-600">R1800</span>
                   <span className="text-gray-600">/month</span>
                 </div>
                 <p className="text-gray-700 mb-4 text-sm">8 hours per month</p>
-                <p className="text-gray-600 mb-6">Comprehensive care with connection and confidence.</p>
-                <button className="w-full bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-lg font-medium transition">
+                <p className="text-gray-600 mb-6 flex-grow">Comprehensive care with connection and confidence.</p>
+                <button className="w-full bg-teal-500 hover:bg-teal-600 text-white py-2 rounded-lg font-medium transition mt-auto">
                   Choose Plan
                 </button>
               </div>
