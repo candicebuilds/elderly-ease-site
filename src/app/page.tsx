@@ -354,7 +354,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="overflow-hidden" style={{ aspectRatio: "4/5", boxShadow: "0 15px 0px rgba(0,0,0,0.08)" }}>
+              <div className="overflow-hidden" style={{ aspectRatio: "4/5" }}>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F72eaa970d66044c69e71df28a725307d"
                   alt="Candice"
@@ -372,7 +372,7 @@ export default function Home() {
 
             {/* Team Member 2 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="overflow-hidden" style={{ aspectRatio: "4/5", boxShadow: "0 15px 0px rgba(0,0,0,0.08)" }}>
+              <div className="overflow-hidden" style={{ aspectRatio: "4/5" }}>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F73ef83d597f84dd981717407c1c53fd9"
                   alt="Colleen"
@@ -390,7 +390,7 @@ export default function Home() {
 
             {/* Team Member 3 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="overflow-hidden" style={{ aspectRatio: "4/5", boxShadow: "0 15px 0px rgba(0,0,0,0.08)" }}>
+              <div className="overflow-hidden" style={{ aspectRatio: "4/5" }}>
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F56e6ecc40ac84df18410ef914130da4c"
                   alt="Carolyn"
