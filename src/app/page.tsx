@@ -260,7 +260,7 @@ export default function Home() {
       <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>
-            Pricing Guide
+            Pricing
           </h2>
           <p className="text-center mb-12 text-lg" style={{ color: "#585858" }}>
             Flexible pricing designed to fit your needs
