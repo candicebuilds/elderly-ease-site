@@ -359,7 +359,7 @@ export default function Home() {
       <section id="team" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#6ec6ca" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-6xl mx-auto relative z-10">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">Meet The Team</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center"><p>Meet the Team</p></h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
