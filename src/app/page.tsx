@@ -410,7 +410,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section id="get-in-touch" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl sm:text-4xl font-bold mb-8" style={{ color: "#585858" }}>Get In Touch</h2>
 
@@ -497,7 +497,7 @@ export default function Home() {
                 <li><a href="/terms" className="footer-link">Terms of Service</a></li>
                 <li><a href="/privacy" className="footer-link">Privacy Notice</a></li>
                 <li><a href="/transport" className="footer-link">Transport Policy</a></li>
-                <li><a href="/#contact" className="footer-link">Contact</a></li>
+                <li><a href="#get-in-touch" className="footer-link">Contact</a></li>
               </ul>
             </div>
           </div>
