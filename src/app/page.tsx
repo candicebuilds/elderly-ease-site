@@ -47,7 +47,6 @@ export default function Home() {
             {/* Hero Content */}
             <div className="flex flex-col justify-center space-y-6">
               <div>
-                <p className="font-medium text-lg mb-2" style={{ color: "rgb(110, 198, 202)" }}>Welcome to Elderly Ease</p>
                 <h1 className="text-4xl sm:text-5xl font-bold mb-4" style={{ color: "#585858" }}>
                   Because asking for help should feel easy
                 </h1>
