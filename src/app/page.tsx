@@ -52,14 +52,12 @@ export default function Home() {
             </div>
 
             {/* Hero Image */}
-            <div className="relative h-96 bg-gradient-to-br from-rose-200 to-teal-200 rounded-2xl overflow-hidden shadow-lg">
-              <div className="w-full h-full flex items-center justify-center text-gray-400">
-                <span className="text-center">
-                  <p className="text-2xl mb-2">📸</p>
-                  <p className="text-sm">Hero Image</p>
-                  <p className="text-xs mt-1">(Update with your image)</p>
-                </span>
-              </div>
+            <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F76cd867b1a0f46cf9c8c80c213245dd5"
+                alt="Caregiver with elderly client and dog"
+                className="w-full h-full object-cover"
+              />
             </div>
           </div>
         </div>
