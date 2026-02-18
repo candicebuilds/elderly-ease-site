@@ -7,8 +7,16 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-amber-50 border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-rose-300 rounded-full flex items-center justify-center">
-              <span className="text-white font-bold text-sm">EE</span>
+            <div
+              className="w-10 h-10 rounded-full flex items-center justify-center"
+              style={{
+                backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Ff80b81fa14ff4302a105d54b0aece452)",
+                backgroundRepeat: "no-repeat",
+                backgroundPosition: "center",
+                backgroundSize: "cover"
+              }}
+            >
+              <span className="text-white font-bold text-sm hidden">EE</span>
             </div>
             <span className="font-bold text-purple-900">Elderly Ease</span>
           </div>
@@ -433,8 +441,16 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <div className="w-8 h-8 bg-rose-400 rounded-full flex items-center justify-center">
-                  <span className="text-white font-bold text-xs">EE</span>
+                <div
+                  className="w-8 h-8 rounded-full flex items-center justify-center"
+                  style={{
+                    backgroundImage: "url(https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Ff80b81fa14ff4302a105d54b0aece452)",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
+                    backgroundSize: "cover"
+                  }}
+                >
+                  <span className="text-white font-bold text-xs hidden">EE</span>
                 </div>
                 <span className="font-bold text-white">Elderly Ease</span>
               </div>
