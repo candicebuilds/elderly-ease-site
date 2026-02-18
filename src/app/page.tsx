@@ -471,10 +471,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-            <button className="text-white px-8 py-3 rounded-full font-medium transition mx-auto block hover:opacity-90" style={{ backgroundColor: "#7b3f7e" }}>
-              Schedule A Call
-            </button>
           </div>
         </div>
       </section>
