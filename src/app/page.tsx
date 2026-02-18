@@ -314,7 +314,7 @@ export default function Home() {
                 </div>
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Complete Ease</h3>
                 <div className="mb-6">
-                  <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R1800</span>
+                  <span className="text-4xl font-bold" style={{ color: "#7b3f7e" }}>R1800</span>
                   <span style={{ color: "#585858" }}>/month</span>
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>8 hours per month</p>
