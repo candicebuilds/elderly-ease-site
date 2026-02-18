@@ -1,9 +1,18 @@
-import Image from "next/image";
+'use client';
 
+import Image from "next/image";
+import { useState } from 'react';
 import { FiPhone, FiMail, FiFacebook } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
 
 export default function Home() {
+  const [copied, setCopied] = useState(false);
+
+  const handleCopyEmail = () => {
+    navigator.clipboard.writeText('hello@elderlyease.co.za');
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
   return (
     <div className="w-full bg-amber-50">
       {/* Navigation */}
@@ -433,8 +442,13 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl" style={{ color: "#6ec6ca" }}>
+                <div className="text-4xl relative" style={{ color: "#6ec6ca", cursor: "pointer" }} onClick={handleCopyEmail}>
                   <FiMail />
+                  {copied && (
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 bg-gray-800 text-white text-xs px-2 py-1 rounded whitespace-nowrap pointer-events-none">
+                      Copied!
+                    </div>
+                  )}
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Email</p>
