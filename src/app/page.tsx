@@ -364,8 +364,12 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 flex items-center justify-center" style={{ backgroundImage: "linear-gradient(to bottom right, #e1a5af, #d8c5db)" }}>
-                <span className="text-6xl">👩‍💼</span>
+              <div className="h-64 overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F72eaa970d66044c69e71df28a725307d"
+                  alt="Candice"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Candice</h3>
@@ -377,8 +381,12 @@ export default function Home() {
 
             {/* Team Member 2 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 flex items-center justify-center" style={{ backgroundImage: "linear-gradient(to bottom right, #b3e5e0, #d8c5db)" }}>
-                <span className="text-6xl">👩‍🌾</span>
+              <div className="h-64 overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F73ef83d597f84dd981717407c1c53fd9"
+                  alt="Colleen"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Colleen</h3>
@@ -390,8 +398,12 @@ export default function Home() {
 
             {/* Team Member 3 */}
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
-              <div className="h-64 flex items-center justify-center" style={{ backgroundImage: "linear-gradient(to bottom right, #e1a5af, #b3e5e0)" }}>
-                <span className="text-6xl">🐕‍🦺</span>
+              <div className="h-64 overflow-hidden">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F56e6ecc40ac84df18410ef914130da4c"
+                  alt="Carolyn"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>Carolyn</h3>
