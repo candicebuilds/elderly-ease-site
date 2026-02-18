@@ -473,6 +473,7 @@ export default function Home() {
               <ul className="space-y-2 text-sm">
                 <li><a href="#about" className="hover:text-white transition">About Us</a></li>
                 <li><a href="#services" className="hover:text-white transition">Services</a></li>
+                <li><a href="#why-us" className="hover:text-white transition">Why Us</a></li>
                 <li><a href="#pricing" className="hover:text-white transition">Pricing</a></li>
                 <li><a href="#team" className="hover:text-white transition">Meet The Team</a></li>
               </ul>
