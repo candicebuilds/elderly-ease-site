@@ -30,7 +30,10 @@ export default function Home() {
             <a href="#team" className="text-gray-700 hover:text-purple-800 font-medium transition">Meet The Team</a>
           </div>
 
-          <button className="bg-teal-500 hover:bg-teal-600 text-white px-6 py-2 rounded-full font-medium transition">
+          <button
+            className="text-white px-6 py-2 rounded-full font-medium transition hover:opacity-90"
+            style={{ backgroundColor: "#6ec6ca" }}
+          >
             Contact Us
           </button>
         </div>
