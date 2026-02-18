@@ -55,9 +55,9 @@ export default function Home() {
                 Reliable support for elderly individuals, delivered with heart and connection.
               </p>
               <div className="flex gap-4 pt-4">
-                <button className="text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105" style={{ backgroundColor: "#7b3f7e" }}>
+                <a href="https://wa.me/27689292847" className="text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105 inline-block" style={{ backgroundColor: "#7b3f7e" }}>
                   Contact Us
-                </button>
+                </a>
                 <a href="#about" className="px-8 py-3 rounded-full font-medium transition hover:bg-gray-100 inline-block" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
                   Learn More
                 </a>
