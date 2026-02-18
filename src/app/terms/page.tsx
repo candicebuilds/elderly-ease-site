@@ -16,7 +16,7 @@ export default function TermsOfService() {
             >
               <span className="text-white font-bold text-sm hidden">EE</span>
             </div>
-            <span className="font-bold" style={{ color: "#7b3f7e" }}>Elderly Ease</span>
+            <span className="font-bold" style={{ color: "#e1a5af" }}>Elderly Ease</span>
           </a>
         </div>
       </nav>
