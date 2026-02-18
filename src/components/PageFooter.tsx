@@ -8,14 +8,14 @@ export default function PageFooter() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-2 mb-4">
+            <a href="/" className="flex items-center gap-2 mb-4 hover:opacity-80 transition">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Ff083901e325842e28176287d1d325087"
+                src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F76a62c25dc484c81aa5bde198ada56bc"
                 alt="Elderly Ease Logo"
                 className="w-8 h-8"
               />
-              <span className="font-bold" style={{ color: "#e1a5af" }}>Elderly Ease</span>
-            </div>
+              <span className="font-bold" style={{ color: "white" }}>Elderly Ease</span>
+            </a>
             <p className="text-sm">Reliable support for elderly individuals, delivered with heart and connection.</p>
           </div>
 
