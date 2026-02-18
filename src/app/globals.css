@@ -67,10 +67,12 @@ a[href="#about"]:hover {
 
 /* Footer Quick Links and Legal links hover color */
 .footer-link {
-  color: inherit;
+  color: currentColor;
   transition: color 0.3s ease;
+  position: relative;
 }
 
 .footer-link:hover {
   color: #e1a5af !important;
+  text-decoration: underline;
 }

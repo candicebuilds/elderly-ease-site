@@ -486,21 +486,21 @@ export default function Home() {
             <div>
               <h4 className="font-bold text-white mb-4">Quick Links</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="#about" className="transition footer-link" style={{ color: "inherit" }}>About Us</a></li>
-                <li><a href="#services" className="transition footer-link" style={{ color: "inherit" }}>Services</a></li>
-                <li><a href="#why-us" className="transition footer-link" style={{ color: "inherit" }}>Why Us</a></li>
-                <li><a href="#pricing" className="transition footer-link" style={{ color: "inherit" }}>Pricing</a></li>
-                <li><a href="#team" className="transition footer-link" style={{ color: "inherit" }}>Meet The Team</a></li>
+                <li><a href="#about" className="footer-link">About Us</a></li>
+                <li><a href="#services" className="footer-link">Services</a></li>
+                <li><a href="#why-us" className="footer-link">Why Us</a></li>
+                <li><a href="#pricing" className="footer-link">Pricing</a></li>
+                <li><a href="#team" className="footer-link">Meet The Team</a></li>
               </ul>
             </div>
 
             <div>
               <h4 className="font-bold text-white mb-4">Legal</h4>
               <ul className="space-y-2 text-sm">
-                <li><a href="/terms" className="transition footer-link" style={{ color: "inherit" }}>Terms of Service</a></li>
-                <li><a href="/privacy" className="transition footer-link" style={{ color: "inherit" }}>Privacy Notice</a></li>
-                <li><a href="/transport" className="transition footer-link" style={{ color: "inherit" }}>Transport Policy</a></li>
-                <li><a href="/#contact" className="transition footer-link" style={{ color: "inherit" }}>Contact</a></li>
+                <li><a href="/terms" className="footer-link">Terms of Service</a></li>
+                <li><a href="/privacy" className="footer-link">Privacy Notice</a></li>
+                <li><a href="/transport" className="footer-link">Transport Policy</a></li>
+                <li><a href="/#contact" className="footer-link">Contact</a></li>
               </ul>
             </div>
           </div>
