@@ -487,7 +487,7 @@ export default function Home() {
                 <li><a href="#services" className="footer-link">Services</a></li>
                 <li><a href="#why-us" className="footer-link">Why Us</a></li>
                 <li><a href="#pricing" className="footer-link">Pricing</a></li>
-                <li><a href="#team" className="footer-link">Meet The Team</a></li>
+                <li><a href="#team" className="footer-link">Meet the Team</a></li>
               </ul>
             </div>
 
