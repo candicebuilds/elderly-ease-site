@@ -18,7 +18,7 @@ export default function Home() {
             >
               <span className="text-white font-bold text-sm hidden">EE</span>
             </div>
-            <span className="font-bold text-purple-900">Elderly Ease</span>
+            <span className="font-bold" style={{ color: "#7b3f7e" }}>Elderly Ease</span>
           </div>
 
           {/* Navigation Links */}
