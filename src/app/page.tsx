@@ -436,8 +436,8 @@ export default function Home() {
                   <FaWhatsapp />
                 </div>
                 <div>
-                  <span className="inline-block text-xs font-medium px-2 py-1 rounded mb-2" style={{ backgroundColor: "#6ec6ca", color: "white" }}>Fastest Response</span>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
+                  <span className="inline-block text-xs font-medium px-2 py-1 rounded mb-2" style={{ backgroundColor: "#6ec6ca", color: "white" }}>Fastest Response</span>
                   <a href="https://wa.me/27689292847" className="font-medium hover:opacity-80 transition" style={{ color: "#6ec6ca" }}>
                     Start Chat
                   </a>
