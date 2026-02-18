@@ -4,8 +4,8 @@ import { FiFacebook } from 'react-icons/fi';
 
 export default function PageFooter() {
   return (
-    <footer className="bg-gray-900 text-gray-300 py-12 px-4 sm:px-6 lg:px-8">
-      <div className="max-w-6xl mx-auto">
+    <footer className="py-12 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#585858" }}>
+      <div className="max-w-6xl mx-auto text-gray-300">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
             <a href="/" className="flex items-center gap-2 mb-4 hover:opacity-80 transition">
@@ -41,7 +41,7 @@ export default function PageFooter() {
           </div>
         </div>
 
-        <div className="border-t border-gray-700 pt-8">
+        <div className="pt-8" style={{ borderTop: "1px solid rgba(255, 255, 255, 0.2)" }}>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm">© 2026 Elderly Ease. All rights reserved.</p>
             <a href="https://facebook.com/ElderlyEase" className="hover:text-white transition text-sm flex items-center gap-2">
