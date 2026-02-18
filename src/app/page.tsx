@@ -274,7 +274,7 @@ export default function Home() {
                 <div className="mb-4 w-12 h-12">
                   <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2a1072e910434749b3a2591eb73ef5fb" alt="Essential icon" className="w-full h-full" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Essential Ease</h3>
+                <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Essential Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R900</span>
                   <span style={{ color: "#585858" }}>/month</span>
@@ -293,7 +293,7 @@ export default function Home() {
                 <div className="mb-4 w-12 h-12">
                   <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F9f16e47037ff4660a990da920ea1104e" alt="Comfort icon" className="w-full h-full" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Comfort Ease</h3>
+                <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Comfort Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R1350</span>
                   <span style={{ color: "#585858" }}>/month</span>
@@ -312,7 +312,7 @@ export default function Home() {
                 <div className="mb-4 w-12 h-12">
                   <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fbd6b916d4eb44083837597738dbb5cfb" alt="Complete icon" className="w-full h-full" />
                 </div>
-                <h3 className="text-2xl font-bold mb-2" style={{ color: "#7b3f7e" }}>Complete Ease</h3>
+                <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Complete Ease</h3>
                 <div className="mb-6">
                   <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R1800</span>
                   <span style={{ color: "#585858" }}>/month</span>
