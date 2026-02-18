@@ -66,6 +66,11 @@ a[href="#about"]:hover {
 }
 
 /* Footer Quick Links and Legal links hover color */
+.footer-link {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
 .footer-link:hover {
-  color: #e1a5af;
+  color: #e1a5af !important;
 }
