@@ -54,3 +54,8 @@ html {
   background-size: contain;
   pointer-events: none;
 }
+
+/* Brand purple hover for navigation links */
+.nav-link:hover {
+  color: #7b3f7e;
+}

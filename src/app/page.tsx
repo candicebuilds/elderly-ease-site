@@ -23,11 +23,11 @@ export default function Home() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center gap-8">
-            <a href="#about" className="text-gray-700 hover:text-purple-800 font-medium transition">About Us</a>
-            <a href="#services" className="text-gray-700 hover:text-purple-800 font-medium transition">Services</a>
-            <a href="#why-us" className="text-gray-700 hover:text-purple-800 font-medium transition">Why Us</a>
-            <a href="#pricing" className="text-gray-700 hover:text-purple-800 font-medium transition">Pricing</a>
-            <a href="#team" className="text-gray-700 hover:text-purple-800 font-medium transition">Meet The Team</a>
+            <a href="#about" className="text-gray-700 font-medium transition nav-link">About Us</a>
+            <a href="#services" className="text-gray-700 font-medium transition nav-link">Services</a>
+            <a href="#why-us" className="text-gray-700 font-medium transition nav-link">Why Us</a>
+            <a href="#pricing" className="text-gray-700 font-medium transition nav-link">Pricing</a>
+            <a href="#team" className="text-gray-700 font-medium transition nav-link">Meet The Team</a>
           </div>
 
           <button
