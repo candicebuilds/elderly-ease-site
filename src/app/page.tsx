@@ -423,7 +423,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="get-in-touch" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-8" style={{ color: "#585858" }}>Get In Touch</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-8" style={{ color: "#585858" }}>Contact Us</h2>
 
           <div className="bg-white rounded-xl shadow-lg p-12 space-y-8">
             <h3 className="text-2xl font-bold" style={{ color: "#7b3f7e" }}>
