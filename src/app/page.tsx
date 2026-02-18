@@ -281,7 +281,7 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>4 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Perfect for light support and everyday tasks.</p>
-                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#6ec6ca" }}>
+                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#585858" }}>
                   Choose Plan
                 </button>
               </div>
@@ -300,7 +300,7 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>6 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Ongoing support and peace of mind.</p>
-                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#7b3f7e" }}>
+                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#585858" }}>
                   Choose Plan
                 </button>
               </div>
@@ -319,7 +319,7 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>8 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Comprehensive care with connection and confidence.</p>
-                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#6ec6ca" }}>
+                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#585858" }}>
                   Choose Plan
                 </button>
               </div>
