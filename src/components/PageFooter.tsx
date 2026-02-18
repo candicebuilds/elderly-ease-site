@@ -10,7 +10,7 @@ export default function PageFooter() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F54e542d4a50f49338c9e1dab3231cf2d"
+                src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Ff083901e325842e28176287d1d325087"
                 alt="Elderly Ease Logo"
                 className="w-8 h-8"
               />
