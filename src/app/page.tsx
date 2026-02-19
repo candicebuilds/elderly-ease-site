@@ -291,9 +291,9 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>4 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Perfect for light support and everyday tasks.</p>
-                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#6ec6ca" }}>
+                <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'm%20interested%20in%20the%20Essential%20Plan" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca" }}>
                   Choose Plan
-                </button>
+                </a>
               </div>
             </div>
 
@@ -310,9 +310,9 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>6 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Ongoing support and peace of mind.</p>
-                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#e1a5af" }}>
+                <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'd%20like%20to%20discuss%20the%20Comfort%20Plan" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af" }}>
                   Choose Plan
-                </button>
+                </a>
               </div>
             </div>
 
@@ -329,9 +329,9 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>8 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Comprehensive care with connection and confidence.</p>
-                <button className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90" style={{ backgroundColor: "#7b3f7e" }}>
+                <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'd%20like%20more%20info%20on%20the%20Complete%20Care%20Plan" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e" }}>
                   Choose Plan
-                </button>
+                </a>
               </div>
             </div>
           </div>
