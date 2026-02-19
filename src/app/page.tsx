@@ -476,7 +476,7 @@ export default function Home() {
                   <a href="tel:0689292847" className="font-medium contact-link">
                     068 929 2847
                   </a>
-                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Emergency only / May be unavailable while on duty</p>
+                  <p className="text-sm mt-2" style={{ color: "#585858" }}>May be unavailable while on duty</p>
                 </div>
               </div>
             </div>
