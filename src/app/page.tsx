@@ -442,7 +442,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
-                  <a href="https://wa.me/27689292847" className="font-medium contact-link block mb-2" style={{ color: "#585858" }}>
+                  <a href="https://wa.me/27689292847" className="font-medium contact-link block mb-2">
                     Start Chat
                   </a>
                   <span className="inline-block text-xs font-medium px-2 py-1 rounded" style={{ backgroundColor: "#6ec6ca", color: "white" }}>Fastest Response</span>
@@ -460,7 +460,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Email</p>
-                  <a href="mailto:hello@elderlyease.co.za" className="font-medium contact-link" style={{ color: "#585858" }}>
+                  <a href="mailto:hello@elderlyease.co.za" className="font-medium contact-link">
                     hello@elderlyease.co.za
                   </a>
                   <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for custom quotes & non-urgent questions</p>
@@ -473,7 +473,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Phone</p>
-                  <a href="tel:0689292847" className="font-medium contact-link" style={{ color: "#585858" }}>
+                  <a href="tel:0689292847" className="font-medium contact-link">
                     068 929 2847
                   </a>
                   <p className="text-sm mt-2" style={{ color: "#585858" }}>May be unavailable while on duty</p>

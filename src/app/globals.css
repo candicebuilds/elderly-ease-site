@@ -91,7 +91,7 @@ html {
 
 /* Contact section links hover color */
 .contact-link {
-  color: #585858;
+  color: #585858 !important;
   transition: color 0.3s ease;
 }
 
