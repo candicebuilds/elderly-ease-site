@@ -77,3 +77,14 @@ html {
   color: #e1a5af !important;
   text-decoration: underline;
 }
+
+/* Email alternative link hover color */
+.email-alt-link {
+  color: currentColor;
+  transition: color 0.3s ease;
+}
+
+.email-alt-link:hover {
+  color: #7b3f7e !important;
+  text-decoration: underline;
+}
