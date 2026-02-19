@@ -1,10 +1,10 @@
-import PageHeader from '@/components/PageHeader';
+import LegalPageHeader from '@/components/LegalPageHeader';
 import PageFooter from '@/components/PageFooter';
 
 export default function PrivacyNotice() {
   return (
     <div className="w-full bg-amber-50">
-      <PageHeader />
+      <LegalPageHeader />
 
       {/* Main Content */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
