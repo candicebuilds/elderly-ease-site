@@ -443,7 +443,7 @@ export default function Home() {
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
                   <a href="https://wa.me/27689292847" className="font-medium contact-link block mb-2">
-                    Start Chat
+                    Start Chat or Voice Note
                   </a>
                   <span className="inline-block text-xs font-medium px-2 py-1 rounded" style={{ backgroundColor: "#6ec6ca", color: "white" }}>Fastest Response</span>
                 </div>
@@ -476,7 +476,7 @@ export default function Home() {
                   <a href="tel:0689292847" className="font-medium contact-link">
                     068 929 2847
                   </a>
-                  <p className="text-sm mt-2" style={{ color: "#585858" }}>May be unavailable while on duty</p>
+                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for urgent needs. Please leave a message if we are with a client.</p>
                 </div>
               </div>
             </div>
