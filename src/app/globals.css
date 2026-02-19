@@ -88,3 +88,13 @@ html {
   color: #7b3f7e !important;
   text-decoration: underline;
 }
+
+/* Contact section links hover color */
+.contact-link {
+  color: #585858;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #7b3f7e !important;
+}
