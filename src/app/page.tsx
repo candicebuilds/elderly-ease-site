@@ -350,7 +350,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
               <p className="mb-4" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
-              <a href="mailto:hello@elderlyease.co.za" className="font-medium hover:opacity-80 transition inline-block" style={{ color: "#7b3f7e" }}>Get Custom Quote →</a>
+              <a href="mailto:hello@elderlyease.co.za?subject=Request%20for%20Custom%20Ease%20Tailored%20Plan" className="font-medium hover:opacity-80 transition inline-block" style={{ color: "#7b3f7e" }}>Get Custom Quote →</a>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-md">
