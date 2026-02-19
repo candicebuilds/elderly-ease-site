@@ -109,7 +109,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Service 1: Home Management */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Home Management & Daily Living
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
@@ -117,27 +117,27 @@ export default function Home() {
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Housekeeping:</strong> Light cleaning such as rubbish removal, dishes, dusting, and laundry.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Meal Preparation:</strong> Support with planning, shopping, and cooking.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>House Maintenance:</strong> Everyday fixes like oiling hinges, hanging pictures, or changing bulbs.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Seasonal Prep:</strong> Patio furniture, wardrobe swaps, and organizing seasonal items.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Decluttering & Downsizing:</strong> Closet clean‑outs, donations, or packing boxes.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Pet Care:</strong> Dog walking, litter box cleaning, and everyday pet support.</span>
                 </li>
               </ul>
@@ -145,7 +145,7 @@ export default function Home() {
 
             {/* Service 2: Concierge */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Personal Concierge & Logistics
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
@@ -153,19 +153,19 @@ export default function Home() {
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Transportation:</strong> Safe, reliable trips for appointments, errands, and social outings.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Shopping Assistance:</strong> Groceries, pharmacy pickups, and more.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Appointment Scheduling:</strong> Booking doctors, hairdressers, or home repairs.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Gift Concierge:</strong> Selecting, wrapping, and mailing gifts for loved ones.</span>
                 </li>
               </ul>
@@ -173,7 +173,7 @@ export default function Home() {
 
             {/* Service 3: Technology */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Technology & Digital Confidence
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
@@ -181,15 +181,15 @@ export default function Home() {
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Digital Support:</strong> Guidance with phones, TVs, apps, and social media.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Cybersecurity Basics:</strong> Strong passwords and spotting phishing attempts.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Digital Legacy:</strong> Digitizing photo albums and organizing memories to share with family.</span>
                 </li>
               </ul>
@@ -197,7 +197,7 @@ export default function Home() {
 
             {/* Service 4: Wellness */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#7b3f7e" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Wellness, Companionship & Legacy
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
@@ -205,19 +205,19 @@ export default function Home() {
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Companionship:</strong> Friendly visits to ease isolation.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Walking Buddy:</strong> Gentle exercise with a supportive partner.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Memoir & Legacy:</strong> Recording life stories, family recipes, or labeling heirlooms.</span>
                 </li>
                 <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#6ec6ca" }}>•</span>
+                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong>Hobbies & Pastimes:</strong> Gardening, puzzles, games, and activities that spark joy.</span>
                 </li>
               </ul>
