@@ -80,7 +80,7 @@ html {
 
 /* Email alternative link hover color */
 .email-alt-link {
-  color: currentColor;
+  color: #585858;
   transition: color 0.3s ease;
 }
 

@@ -295,7 +295,7 @@ export default function Home() {
                   Choose Plan
                 </a>
                 <p className="text-center mt-2" style={{ fontSize: "12px", color: "#585858" }}>
-                  Don't have WhatsApp? <a href="mailto:hello@elderlyease.co.za" className="email-alt-link" style={{ color: "#585858" }}>Email us here</a>
+                  Don't have WhatsApp? <a href="mailto:hello@elderlyease.co.za" className="email-alt-link">Email us here</a>
                 </p>
               </div>
             </div>
@@ -317,7 +317,7 @@ export default function Home() {
                   Choose Plan
                 </a>
                 <p className="text-center mt-2" style={{ fontSize: "12px", color: "#585858" }}>
-                  Don't have WhatsApp? <a href="mailto:hello@elderlyease.co.za" className="email-alt-link" style={{ color: "#585858" }}>Email us here</a>
+                  Don't have WhatsApp? <a href="mailto:hello@elderlyease.co.za" className="email-alt-link">Email us here</a>
                 </p>
               </div>
             </div>
@@ -339,7 +339,7 @@ export default function Home() {
                   Choose Plan
                 </a>
                 <p className="text-center mt-2" style={{ fontSize: "12px", color: "#585858" }}>
-                  Don't have WhatsApp? <a href="mailto:hello@elderlyease.co.za" className="email-alt-link" style={{ color: "#585858" }}>Email us here</a>
+                  Don't have WhatsApp? <a href="mailto:hello@elderlyease.co.za" className="email-alt-link">Email us here</a>
                 </p>
               </div>
             </div>
