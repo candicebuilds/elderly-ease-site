@@ -87,7 +87,7 @@ export default function Home() {
       </div>
 
       {/* About Us Section */}
-      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#C17C88" }}>
+      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: "white" }}>About Us</h2>
