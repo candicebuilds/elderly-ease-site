@@ -41,7 +41,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 bg-amber-50" style={{ marginBottom: "-20px" }}>
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
@@ -70,6 +70,7 @@ export default function Home() {
                 src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F76cd867b1a0f46cf9c8c80c213245dd5"
                 alt="Caregiver with elderly client and dog"
                 className="w-full h-full object-cover"
+                style={{ objectPosition: "75% center" }}
               />
             </div>
           </div>
@@ -77,7 +78,7 @@ export default function Home() {
       </section>
 
       {/* Decorative Leaf Divider */}
-      <div className="w-full flex justify-center relative" style={{ backgroundColor: "#fffff0", padding: "20px 20px 40px 20px", zIndex: 10 }}>
+      <div className="w-full flex justify-center relative" style={{ backgroundColor: "#fffff0", padding: "10px 20px 20px 20px", zIndex: 10 }}>
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
           alt="Decorative leaf design"
@@ -86,21 +87,21 @@ export default function Home() {
       </div>
 
       {/* About Us Section */}
-      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#b85a73" }}>
+      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#b85a73", paddingTop: "60px" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-4xl font-bold text-white mb-8 text-center">About Us</h2>
           
-          <div className="space-y-6 text-white leading-relaxed">
-      <p style={{ fontSize: "16px" }}>
+          <div className="space-y-6 leading-relaxed">
+      <p style={{ fontSize: "16px", color: "#585858" }}>
         At Elderly Ease, our mission is to provide reliable, non-personal care assistance to elderly individuals who are independent but need help with everyday tasks. We are deeply committed to supporting seniors with compassion, respect, and dignity, ensuring they maintain their independence while receiving the practical help they need.
       </p>
 
-      <p style={{ fontSize: "16px" }}>
+      <p style={{ fontSize: "16px", color: "#585858" }}>
         As a family-run service rooted in our local community, we prioritize transparency, trust, and genuine connections. Our approach blends professional support with a warm, personal touch, making every client feel valued and understood.
       </p>
 
-      <p style={{ fontSize: "16px" }}>
+      <p style={{ fontSize: "16px", color: "#585858" }}>
         We believe that aging with ease means having dependable assistance tailored to your unique lifestyle, empowering you to live comfortably and confidently every day.
       </p>
     </div>
