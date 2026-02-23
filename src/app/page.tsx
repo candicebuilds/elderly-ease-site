@@ -243,14 +243,14 @@ export default function Home() {
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
           alt="Decorative cream leaves"
           className="absolute"
-          style={{ top: "0%", left: "0%", width: "auto", height: "120%", zIndex: 0, opacity: 0.1, pointerEvents: "none", transform: "translate(-50%, -20%) rotate(180deg)", mixBlendMode: "overlay" }}
+          style={{ top: "0%", left: "0%", width: "auto", height: "110%", zIndex: 0, opacity: 0.12, pointerEvents: "none", transform: "translate(-40%, -15%) rotate(180deg)", mixBlendMode: "overlay" }}
         />
         {/* Cream Vertical Leaves - Bottom Right Accent */}
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
           alt="Decorative cream leaves"
           className="absolute"
-          style={{ right: "0%", bottom: "0%", width: "auto", height: "120%", zIndex: 0, opacity: 0.1, pointerEvents: "none", transform: "translate(50%, 0%)", mixBlendMode: "overlay" }}
+          style={{ right: "0%", bottom: "0%", width: "auto", height: "110%", zIndex: 0, opacity: 0.12, pointerEvents: "none", transform: "translate(40%, 0%)", mixBlendMode: "overlay" }}
         />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
