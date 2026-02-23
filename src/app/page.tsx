@@ -354,7 +354,7 @@ export default function Home() {
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-md">
-              <h3 className="text-xl font-bold mb-2" style={{ color: "#585858" }}>Simple Hourly Ease</h3>
+              <h3 className="text-xl font-bold mb-2" style={{ color: "#585858" }}>Hourly Ease</h3>
               <p className="mb-4" style={{ color: "#585858" }}>
                 <span className="text-2xl font-bold" style={{ color: "#585858" }}>R250</span>/hour
               </p>
