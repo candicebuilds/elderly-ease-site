@@ -55,10 +55,10 @@ export default function Home() {
                 Reliable support for elderly individuals in Edenvale and surrounds, delivered with heart and connection.
               </h2>
               <div className="flex gap-4 pt-4">
-                <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease!%20I%20would%20love%20to%20chat%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105 inline-block" style={{ backgroundColor: "#7b3f7e" }}>
+                <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease!%20I%20would%20love%20to%20chat%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-full font-medium transition transform hover:scale-105 inline-block" style={{ backgroundColor: "#7b3f7e" }}>
                   WhatsApp Us
                 </a>
-                <a href="#about" className="px-8 py-3 rounded-full font-medium transition hover:bg-gray-100 inline-block" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
+                <a href="#about" className="px-6 py-3 rounded-full font-medium transition hover:bg-gray-100 inline-block" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
                   Learn More
                 </a>
               </div>
@@ -314,10 +314,10 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>4 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Perfect for light support and everyday tasks.</p>
-                <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20chat%20about%20the%20Essential%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca", color: "#585858" }}>
+                <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20chat%20about%20the%20Essential%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca", color: "#585858" }}>
                   WhatsApp Us
                 </a>
-                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Essential%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca" }}>
+                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Essential%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-3 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca" }}>
                   Email Us
                 </a>
               </div>
@@ -336,10 +336,10 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>6 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Ongoing support and peace of mind.</p>
-                <a href="https://wa.me/27689292847?text=Hi!%20I'm%20interested%20in%20the%20Comfort%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af", color: "#585858" }}>
+                <a href="https://wa.me/27689292847?text=Hi!%20I'm%20interested%20in%20the%20Comfort%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af", color: "#585858" }}>
                   WhatsApp Us
                 </a>
-                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Comfort%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af" }}>
+                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Comfort%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-3 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af" }}>
                   Email Us
                 </a>
               </div>
@@ -358,10 +358,10 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>8 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Comprehensive care with connection and confidence.</p>
-                <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20discuss%20the%20Complete%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e" }}>
+                <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20discuss%20the%20Complete%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full text-white px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e" }}>
                   WhatsApp Us
                 </a>
-                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Complete%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
+                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Complete%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-3 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
                   Email Us
                 </a>
               </div>
@@ -373,7 +373,7 @@ export default function Home() {
             <div className="bg-white p-8 rounded-xl shadow-md">
               <h3 className="text-xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
               <p className="mb-4" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
-              <a href="mailto:hello@elderlyease.co.za?subject=Quote%20Request:%20Custom%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#585858" }}>
+              <a href="mailto:hello@elderlyease.co.za?subject=Quote%20Request:%20Custom%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#585858" }}>
                 Email Us
               </a>
             </div>
@@ -384,7 +384,7 @@ export default function Home() {
                 <span className="text-2xl font-bold" style={{ color: "#585858" }}>R250</span>/hour
               </p>
               <p className="text-sm mb-4" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
-              <a href="mailto:hello@elderlyease.co.za?subject=Trial%20Inquiry:%20Simple%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
+              <a href="mailto:hello@elderlyease.co.za?subject=Trial%20Inquiry:%20Simple%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="w-full px-6 py-3 rounded-lg font-medium transition hover:bg-gray-100 block text-center" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
                 Email Us
               </a>
             </div>
