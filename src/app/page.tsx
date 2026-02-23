@@ -380,7 +380,7 @@ export default function Home() {
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
               <div className="overflow-hidden" style={{ aspectRatio: "4/5" }}>
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F72eaa970d66044c69e71df28a725307d"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F60f6d8810c5f4b388b052201ab17fbc0"
                   alt="Candice"
                   className="w-full h-full object-cover"
                   style={{ borderRadius: "12px" }}
@@ -397,7 +397,7 @@ export default function Home() {
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
               <div className="overflow-hidden" style={{ aspectRatio: "4/5" }}>
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F73ef83d597f84dd981717407c1c53fd9"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F1e0a4cb8f3444de7bd077a862211792a"
                   alt="Colleen"
                   className="w-full h-full object-cover"
                   style={{ borderRadius: "12px" }}
@@ -414,7 +414,7 @@ export default function Home() {
             <div className="bg-white bg-opacity-95 rounded-xl overflow-hidden shadow-lg">
               <div className="overflow-hidden" style={{ aspectRatio: "4/5" }}>
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F56e6ecc40ac84df18410ef914130da4c"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F3ffcc08145614425a365ff4d97b85bfc"
                   alt="Carolyn"
                   className="w-full h-full object-cover"
                   style={{ borderRadius: "12px" }}
