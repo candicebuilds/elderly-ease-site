@@ -56,7 +56,7 @@ export default function Home() {
               </p>
               <div className="flex gap-4 pt-4">
                 <a href="https://wa.me/27689292847" target="_blank" rel="noopener noreferrer" className="text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105 inline-block" style={{ backgroundColor: "#7b3f7e" }}>
-                  Message on WhatsApp
+                  WhatsApp Us
                 </a>
                 <a href="#about" className="px-8 py-3 rounded-full font-medium transition hover:bg-gray-100 inline-block" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
                   Learn More
@@ -292,7 +292,7 @@ export default function Home() {
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>4 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Perfect for light support and everyday tasks.</p>
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'm%20interested%20in%20the%20Essential%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca" }}>
-                  Message on WhatsApp
+                  WhatsApp Us
                 </a>
               </div>
             </div>
@@ -311,7 +311,7 @@ export default function Home() {
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>6 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Ongoing support and peace of mind.</p>
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'd%20like%20to%20discuss%20the%20Comfort%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af" }}>
-                  Message on WhatsApp
+                  WhatsApp Us
                 </a>
               </div>
             </div>
@@ -330,7 +330,7 @@ export default function Home() {
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>8 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Comprehensive care with connection and confidence.</p>
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'd%20like%20more%20info%20on%20the%20Complete%20Care%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e" }}>
-                  Message on WhatsApp
+                  WhatsApp Us
                 </a>
               </div>
             </div>
