@@ -236,8 +236,14 @@ export default function Home() {
       </section>
 
       {/* Why Choose Us Section */}
-      <section id="why-us" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#7b3f7e" }}>
+      <section id="why-us" className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#7b3f7e" }}>
         <div className="leaf-bg-bottom absolute inset-0 opacity-10" />
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
+          alt="Decorative leaf accent"
+          className="absolute"
+          style={{ right: "-50%", bottom: "-50%", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
+        />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
             Why Us
