@@ -77,12 +77,11 @@ export default function Home() {
       </section>
 
       {/* Decorative Leaf Divider */}
-      <div className="w-full flex justify-center" style={{ backgroundColor: "#fffff0", padding: "40px 20px" }}>
+      <div className="w-full flex justify-center" style={{ backgroundColor: "#fffff0", padding: "20px 20px 40px 20px" }}>
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
           alt="Decorative leaf design"
-          className="w-full"
-          style={{ maxHeight: "100px", objectFit: "contain", opacity: 0.15, pointerEvents: "none" }}
+          style={{ maxHeight: "150px", width: "auto", objectFit: "contain", opacity: 0.4, pointerEvents: "none" }}
         />
       </div>
 
