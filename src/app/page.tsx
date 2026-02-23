@@ -238,19 +238,12 @@ export default function Home() {
       {/* Why Choose Us Section */}
       <section id="why-us" className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#7b3f7e" }}>
         <div className="leaf-bg-bottom absolute inset-0 opacity-10" />
-        {/* Top-Left Leaf Accent */}
+        {/* Cream Vertical Leaves - Bottom Right */}
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
-          alt="Decorative leaf accent"
+          alt="Decorative cream leaves"
           className="absolute"
-          style={{ left: "-60%", top: "-60%", width: "auto", height: "1200px", zIndex: 0, opacity: 0.25, pointerEvents: "none" }}
-        />
-        {/* Bottom-Right Leaf Accent */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
-          alt="Decorative leaf accent"
-          className="absolute"
-          style={{ right: "-60%", bottom: "-60%", width: "auto", height: "1200px", zIndex: 0, opacity: 0.25, pointerEvents: "none" }}
+          style={{ bottom: 0, right: "20px", width: "auto", height: "500px", zIndex: 1, opacity: 0.4, pointerEvents: "none" }}
         />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
