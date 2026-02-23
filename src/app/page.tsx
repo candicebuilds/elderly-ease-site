@@ -238,19 +238,12 @@ export default function Home() {
       {/* Why Choose Us Section */}
       <section id="why-us" className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#7b3f7e" }}>
         <div className="leaf-bg-bottom absolute inset-0 opacity-10" />
-        {/* Cream Vertical Leaves - Top Left */}
+        {/* Cream Vertical Leaves - Bottom Right Accent */}
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
           alt="Decorative cream leaves"
           className="absolute"
-          style={{ top: 0, left: "-50%", width: "auto", height: "800px", zIndex: 1, opacity: 0.15, pointerEvents: "none" }}
-        />
-        {/* Cream Vertical Leaves - Bottom Right */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
-          alt="Decorative cream leaves"
-          className="absolute"
-          style={{ bottom: 0, right: "-50%", width: "auto", height: "800px", zIndex: 1, opacity: 0.15, pointerEvents: "none" }}
+          style={{ right: "0%", bottom: "0%", width: "auto", height: "100%", zIndex: 0, opacity: 0.2, pointerEvents: "none", transform: "translate(30%, 0%)", mixBlendMode: "overlay" }}
         />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
