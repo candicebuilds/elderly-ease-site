@@ -41,7 +41,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 bg-amber-50" style={{ marginBottom: "-20px" }}>
+      <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
@@ -78,16 +78,16 @@ export default function Home() {
       </section>
 
       {/* Decorative Leaf Divider */}
-      <div className="w-full flex justify-center relative" style={{ backgroundColor: "#fffff0", padding: "10px 20px 20px 20px", zIndex: 10 }}>
+      <div className="w-full flex justify-center relative" style={{ backgroundColor: "#fffff0", padding: "0 20px", zIndex: 10, marginBottom: "-75px", position: "relative" }}>
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
           alt="Decorative leaf design"
-          style={{ maxHeight: "150px", width: "120%", objectFit: "contain", opacity: 0.4, pointerEvents: "none", transform: "translateY(50%)" }}
+          style={{ maxHeight: "150px", width: "120%", objectFit: "contain", opacity: 0.4, pointerEvents: "none" }}
         />
       </div>
 
       {/* About Us Section */}
-      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#b85a73", paddingTop: "60px" }}>
+      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#b85a73" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-4xl font-bold text-white mb-8 text-center">About Us</h2>
