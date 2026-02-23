@@ -260,28 +260,28 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Dignity First</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
                 Every service is delivered with respect, care, and a focus on independence.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Transparent & Reliable</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
                 Clear policies, fair pricing, and trustworthy support you can count on.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Family‑Run with Heart</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
                 A local, family‑driven business built on compassion and community.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Holistic Support</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
                 From daily tasks to companionship and hobbies, we make life easier and more joyful.
               </p>
             </div>
