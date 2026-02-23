@@ -9,12 +9,15 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Elderly Ease - Compassionate Care Support for Seniors",
-  description: "Reliable, non-personal care assistance for elderly individuals. From daily tasks to companionship. Because asking for help should feel easy.",
-  keywords: "elderly care, senior support, home assistance, elderly services, aged care",
+  title: "Elderly Ease | Compassionate Senior Care in Edenvale",
+  description: "Reliable, heart-centered support for seniors in Edenvale and surrounds. We make asking for help feel easy.",
+  keywords: "elderly care, senior support, home assistance, elderly services, aged care, Edenvale",
+  icons: {
+    icon: "https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Faad9320e5dd04b1db64483a555c1c5eb",
+  },
   openGraph: {
-    title: "Elderly Ease - Compassionate Care Support",
-    description: "Reliable support for elderly individuals with dignity and connection",
+    title: "Elderly Ease | Compassionate Senior Care in Edenvale",
+    description: "Reliable, heart-centered support for seniors in Edenvale and surrounds. We make asking for help feel easy.",
     type: "website",
   },
 };
