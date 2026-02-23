@@ -47,7 +47,7 @@ export default function Home() {
             {/* Hero Content */}
             <div className="flex flex-col justify-center space-y-6">
               <div>
-                <h1 className="text-4xl sm:text-5xl font-bold mb-4" style={{ color: "#585858" }}>
+                <h1 className="text-5xl font-bold mb-4" style={{ color: "#585858" }}>
                   Because asking for help should feel easy
                 </h1>
               </div>
@@ -89,7 +89,7 @@ export default function Home() {
       <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#e1a5af" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-8 text-center">About Us</h2>
+          <h2 className="text-4xl font-bold text-white mb-8 text-center">About Us</h2>
           
           <div className="space-y-6 text-white text-lg leading-relaxed">
             <p>
@@ -110,7 +110,7 @@ export default function Home() {
       {/* Services Section */}
       <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>Services</h2>
+          <h2 className="text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>Services</h2>
           <p className="text-center mb-12 max-w-2xl mx-auto text-lg" style={{ color: "#585858" }}>
             Comprehensive care tailored to your unique needs and lifestyle
           </p>
@@ -253,35 +253,35 @@ export default function Home() {
           style={{ right: "-180px", bottom: "-60px", width: "auto", height: "130%", zIndex: 0, opacity: 0.12, pointerEvents: "none", mixBlendMode: "overlay" }}
         />
         <div className="max-w-4xl mx-auto relative z-10">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
+          <h2 className="text-4xl font-bold text-white mb-12 text-center">
             Why Us
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Dignity First</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 Every service is delivered with respect, care, and a focus on independence.
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Transparent & Reliable</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 Clear policies, fair pricing, and trustworthy support you can count on.
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Family‑Run with Heart</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 A local, family‑driven business built on compassion and community.
               </p>
             </div>
 
             <div className="bg-white bg-opacity-10 p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Holistic Support</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 From daily tasks to companionship and hobbies, we make life easier and more joyful.
               </p>
             </div>
@@ -292,7 +292,7 @@ export default function Home() {
       {/* Pricing Section */}
       <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>
+          <h2 className="text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>
             Pricing
           </h2>
           <p className="text-center mb-12 text-lg" style={{ color: "#585858" }}>
@@ -410,7 +410,7 @@ export default function Home() {
           style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
         />
         <div className="max-w-6xl mx-auto relative z-10">
-          <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center"><p>Meet the Team</p></h2>
+          <h2 className="text-4xl font-bold text-white mb-12 text-center"><p>Meet the Team</p></h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
@@ -470,7 +470,7 @@ export default function Home() {
       {/* Contact Section */}
       <section id="get-in-touch" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-8" style={{ color: "#585858" }}>Contact Us</h2>
+          <h2 className="text-4xl font-bold mb-8" style={{ color: "#585858" }}>Contact Us</h2>
 
           <div className="bg-white rounded-xl shadow-lg p-12 space-y-8">
             <h3 className="text-2xl font-bold" style={{ color: "#585858" }}>

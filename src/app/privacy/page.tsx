@@ -9,7 +9,7 @@ export default function PrivacyNotice() {
       {/* Main Content */}
       <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-4xl sm:text-5xl font-bold mb-12" style={{ color: "#585858" }}>Privacy Notice (POPIA Compliance)</h1>
+          <h1 className="text-5xl font-bold mb-12" style={{ color: "#585858" }}>Privacy Notice (POPIA Compliance)</h1>
 
           <div className="space-y-6 text-lg leading-relaxed" style={{ color: "#585858" }}>
             <p>
