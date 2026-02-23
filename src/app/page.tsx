@@ -52,7 +52,7 @@ export default function Home() {
                 </h1>
               </div>
               <p className="text-xl leading-relaxed" style={{ color: "#585858" }}>
-                Reliable support for elderly individuals, delivered with heart and connection.
+                Reliable support for elderly individuals in Edenvale and surrounds, delivered with heart and connection.
               </p>
               <div className="flex gap-4 pt-4">
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease!%20I%20would%20love%20to%20chat%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="text-white px-8 py-3 rounded-full font-medium transition transform hover:scale-105 inline-block" style={{ backgroundColor: "#7b3f7e" }}>
