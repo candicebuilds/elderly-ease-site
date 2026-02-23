@@ -242,7 +242,7 @@ export default function Home() {
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
           alt="Decorative leaf accent"
           className="absolute"
-          style={{ right: "-50%", bottom: "-50%", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
+          style={{ right: "-15%", bottom: "-15%", width: "500px", height: "500px", zIndex: 0, opacity: 0.35, pointerEvents: "none" }}
         />
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center">
