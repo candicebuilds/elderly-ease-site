@@ -90,18 +90,18 @@ export default function Home() {
       <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#C17C88" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
-          <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: "#585858" }}>About Us</h2>
+          <h2 className="text-4xl font-bold mb-8 text-center" style={{ color: "white" }}>About Us</h2>
           
           <div className="space-y-6 leading-relaxed">
-      <p style={{ fontSize: "16px", color: "#585858" }}>
+      <p style={{ fontSize: "16px", color: "white" }}>
         At Elderly Ease, our mission is to provide reliable, non-personal care assistance to elderly individuals who are independent but need help with everyday tasks. We are deeply committed to supporting seniors with compassion, respect, and dignity, ensuring they maintain their independence while receiving the practical help they need.
       </p>
 
-      <p style={{ fontSize: "16px", color: "#585858" }}>
+      <p style={{ fontSize: "16px", color: "white" }}>
         As a family-run service rooted in our local community, we prioritize transparency, trust, and genuine connections. Our approach blends professional support with a warm, personal touch, making every client feel valued and understood.
       </p>
 
-      <p style={{ fontSize: "16px", color: "#585858" }}>
+      <p style={{ fontSize: "16px", color: "white" }}>
         We believe that aging with ease means having dependable assistance tailored to your unique lifestyle, empowering you to live comfortably and confidently every day.
       </p>
     </div>
