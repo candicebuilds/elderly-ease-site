@@ -359,6 +359,9 @@ export default function Home() {
                 <span className="text-2xl font-bold" style={{ color: "#585858" }}>R250</span>/hour
               </p>
               <p className="text-sm mb-4" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
+              <a href="mailto:hello@elderlyease.co.za" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center inline-block" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
+                Email Us
+              </a>
             </div>
           </div>
         </div>
