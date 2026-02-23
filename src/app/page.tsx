@@ -393,8 +393,22 @@ export default function Home() {
       </section>
 
       {/* Team Section */}
-      <section id="team" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#6ec6ca" }}>
+      <section id="team" className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#6ec6ca" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
+        {/* Cream Circle Leaves - Top Left */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
+          alt="Decorative cream circle leaves"
+          className="absolute"
+          style={{ top: "-100px", left: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
+        />
+        {/* Cream Circle Leaves - Bottom Right */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
+          alt="Decorative cream circle leaves"
+          className="absolute"
+          style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
+        />
         <div className="max-w-6xl mx-auto relative z-10">
           <h2 className="text-3xl sm:text-4xl font-bold text-white mb-12 text-center"><p>Meet the Team</p></h2>
 
