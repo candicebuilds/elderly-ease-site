@@ -258,28 +258,28 @@ export default function Home() {
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white bg-opacity-10 p-8 rounded-xl">
+            <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Dignity First</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 Every service is delivered with respect, care, and a focus on independence.
               </p>
             </div>
 
-            <div className="bg-white bg-opacity-10 p-8 rounded-xl">
+            <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Transparent & Reliable</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 Clear policies, fair pricing, and trustworthy support you can count on.
               </p>
             </div>
 
-            <div className="bg-white bg-opacity-10 p-8 rounded-xl">
+            <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Family‑Run with Heart</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 A local, family‑driven business built on compassion and community.
               </p>
             </div>
 
-            <div className="bg-white bg-opacity-10 p-8 rounded-xl">
+            <div className="bg-white p-8 rounded-xl">
               <h3 className="text-xl mb-3" style={{ color: "#7b3f7e", fontFamily: "Poppins, sans-serif", fontWeight: "700", fontSize: "20px" }}>Holistic Support</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "18px", lineHeight: "1.6" }}>
                 From daily tasks to companionship and hobbies, we make life easier and more joyful.
@@ -314,7 +314,7 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>4 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Perfect for light support and everyday tasks.</p>
-                <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20chat%20about%20the%20Essential%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca" }}>
+                <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20chat%20about%20the%20Essential%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca", color: "#585858" }}>
                   WhatsApp Us
                 </a>
                 <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Essential%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca" }}>
@@ -336,7 +336,7 @@ export default function Home() {
                 </div>
                 <p className="mb-4 text-sm" style={{ color: "#585858" }}>6 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Ongoing support and peace of mind.</p>
-                <a href="https://wa.me/27689292847?text=Hi!%20I'm%20interested%20in%20the%20Comfort%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af" }}>
+                <a href="https://wa.me/27689292847?text=Hi!%20I'm%20interested%20in%20the%20Comfort%20Ease%20package." target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af", color: "#585858" }}>
                   WhatsApp Us
                 </a>
                 <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Comfort%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af" }}>
@@ -410,7 +410,7 @@ export default function Home() {
           style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
         />
         <div className="max-w-6xl mx-auto relative z-10">
-          <h2 className="text-4xl font-bold text-white mb-12 text-center"><p>Meet the Team</p></h2>
+          <h2 className="text-4xl font-bold mb-12 text-center" style={{ color: "#585858" }}><p>Meet the Team</p></h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
@@ -479,7 +479,7 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl" style={{ color: "#6ec6ca" }}>
+                <div className="text-4xl" style={{ color: "#585858" }}>
                   <FaWhatsapp />
                 </div>
                 <div>
@@ -492,7 +492,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl relative" style={{ color: "#6ec6ca", cursor: "pointer" }} onClick={handleCopyEmail}>
+                <div className="text-4xl relative" style={{ color: "#585858", cursor: "pointer" }} onClick={handleCopyEmail}>
                   <FiMail />
                   {copied && (
                     <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 bg-gray-800 text-white text-xs px-2 py-1 rounded whitespace-nowrap pointer-events-none">
@@ -510,7 +510,7 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl" style={{ color: "#6ec6ca" }}>
+                <div className="text-4xl" style={{ color: "#585858" }}>
                   <FiPhone />
                 </div>
                 <div>
