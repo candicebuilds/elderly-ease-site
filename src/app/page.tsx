@@ -294,6 +294,9 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'm%20interested%20in%20the%20Essential%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca" }}>
                   WhatsApp Us
                 </a>
+                <a href="mailto:hello@elderlyease.co.za" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2 inline-block" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca" }}>
+                  Email Us
+                </a>
               </div>
             </div>
 
@@ -313,6 +316,9 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'd%20like%20to%20discuss%20the%20Comfort%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af" }}>
                   WhatsApp Us
                 </a>
+                <a href="mailto:hello@elderlyease.co.za" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2 inline-block" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af" }}>
+                  Email Us
+                </a>
               </div>
             </div>
 
@@ -331,6 +337,9 @@ export default function Home() {
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Comprehensive care with connection and confidence.</p>
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease,%20I'd%20like%20more%20info%20on%20the%20Complete%20Care%20Plan" target="_blank" rel="noopener noreferrer" className="w-full text-white py-2 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e" }}>
                   WhatsApp Us
+                </a>
+                <a href="mailto:hello@elderlyease.co.za" className="w-full py-2 rounded-lg font-medium transition hover:bg-gray-100 block text-center mt-2 inline-block" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e" }}>
+                  Email Us
                 </a>
               </div>
             </div>
