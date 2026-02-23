@@ -91,19 +91,19 @@ export default function Home() {
         <div className="max-w-4xl mx-auto relative z-10">
           <h2 className="text-4xl font-bold text-white mb-8 text-center">About Us</h2>
           
-          <div className="space-y-6 text-white text-lg leading-relaxed">
-            <p>
-              At Elderly Ease, our mission is to provide reliable, non-personal care assistance to elderly individuals who are independent but need help with everyday tasks. We are deeply committed to supporting seniors with compassion, respect, and dignity, ensuring they maintain their independence while receiving the practical help they need.
-            </p>
-            
-            <p>
-              As a family-run service rooted in our local community, we prioritize transparency, trust, and genuine connections. Our approach blends professional support with a warm, personal touch, making every client feel valued and understood.
-            </p>
-            
-            <p>
-              We believe that aging with ease means having dependable assistance tailored to your unique lifestyle, empowering you to live comfortably and confidently every day.
-            </p>
-          </div>
+          <div className="space-y-6 text-white leading-relaxed">
+      <p style={{ fontSize: "16px" }}>
+        At Elderly Ease, our mission is to provide reliable, non-personal care assistance to elderly individuals who are independent but need help with everyday tasks. We are deeply committed to supporting seniors with compassion, respect, and dignity, ensuring they maintain their independence while receiving the practical help they need.
+      </p>
+
+      <p style={{ fontSize: "16px" }}>
+        As a family-run service rooted in our local community, we prioritize transparency, trust, and genuine connections. Our approach blends professional support with a warm, personal touch, making every client feel valued and understood.
+      </p>
+
+      <p style={{ fontSize: "16px" }}>
+        We believe that aging with ease means having dependable assistance tailored to your unique lifestyle, empowering you to live comfortably and confidently every day.
+      </p>
+    </div>
         </div>
       </section>
 
