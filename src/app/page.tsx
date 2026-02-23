@@ -505,7 +505,7 @@ export default function Home() {
                   <a href="mailto:hello@elderlyease.co.za" className="font-medium contact-link">
                     hello@elderlyease.co.za
                   </a>
-                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for custom quotes & non-urgent questions</p>
+                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for custom quotes & non-urgent questions.</p>
                 </div>
               </div>
 
