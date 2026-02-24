@@ -82,7 +82,7 @@ export default function Home() {
       </div>
 
       {/* Background Leaf Pattern */}
-      <div className="leaf-bg-top absolute opacity-10" style={{ left: "20%", top: "550px", width: "100%" }} />
+      <div className="leaf-bg-top absolute opacity-10" style={{ left: "20%", top: "100px", width: "100%" }} />
 
       {/* About Us Section */}
       <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px" }}>
