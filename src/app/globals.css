@@ -29,18 +29,7 @@ html {
 }
 
 /* Utility classes */
-.leaf-bg-top::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 200px;
-  height: 200px;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 10 Q80 30 80 60 Q60 80 40 80 Q30 60 35 40 Q40 20 50 10' fill='%23d4a9b4' opacity='0.15'/%3E%3C/svg%3E");
-  background-repeat: no-repeat;
-  background-size: contain;
-  pointer-events: none;
-}
+/* Removed conflicting ::before pseudo-element */
 
 .leaf-bg-bottom::before {
   content: '';
@@ -97,13 +86,4 @@ html {
 
 .contact-link:hover {
   color: #7b3f7e !important;
-}
-
-/* Override leaf-bg-top positioning */
-.leaf-bg-top {
-  left: 15% !important;
-  right: auto !important;
-  top: -450px !important;
-  bottom: auto !important;
-  width: 100% !important;
 }
