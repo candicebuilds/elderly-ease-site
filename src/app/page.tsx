@@ -444,7 +444,7 @@ export default function Home() {
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
                 <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
-                  <span style={{ color: "#7b3f7e", fontWeight: "700" }}>Candice</span> keeps the hinges oiled and the spirits lifted. From booking appointments to wrapping gifts and even wrangling tricky tech, she adds a dash of creativity to everyday fixes—making life run smoother with a smile.
+                  <span style={{ color: "#7b3f7e" }}>Candice</span> keeps the hinges oiled and the spirits lifted. From booking appointments to wrapping gifts and even wrangling tricky tech, she adds a dash of creativity to everyday fixes—making life run smoother with a smile.
                 </p>
               </div>
             </div>
@@ -461,7 +461,7 @@ export default function Home() {
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
                 <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
-                  <span style={{ color: "#7b3f7e", fontWeight: "700" }}>Colleen</span> is the sunshine in every visit. Whether she's tending gardens, puzzling over crosswords, or chauffeuring with care, she turns errands into adventures and companionship into laughter.
+                  <span style={{ color: "#7b3f7e" }}>Colleen</span> is the sunshine in every visit. Whether she's tending gardens, puzzling over crosswords, or chauffeuring with care, she turns errands into adventures and companionship into laughter.
                 </p>
               </div>
             </div>
@@ -478,7 +478,7 @@ export default function Home() {
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
                 <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
-                  <span style={{ color: "#7b3f7e", fontWeight: "700" }}>Carolyn</span> is happiest with paws pattering beside her. She's the walking buddy pets adore and the everyday helper households rely on—whether it's a wagging tail, a tidy corner, or a cherished story, Carolyn brings heart to every step.
+                  <span style={{ color: "#7b3f7e" }}>Carolyn</span> is happiest with paws pattering beside her. She's the walking buddy pets adore and the everyday helper households rely on—whether it's a wagging tail, a tidy corner, or a cherished story, Carolyn brings heart to every step.
                 </p>
               </div>
             </div>
