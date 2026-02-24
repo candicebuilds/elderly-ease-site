@@ -85,10 +85,10 @@ export default function Home() {
       <div className="opacity-40" style={{ position: "absolute", left: "15%", top: "-450px", width: "100%", zIndex: 99, right: "auto", bottom: "auto" }} />
 
       {/* About Us Section */}
-      <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative", overflow: "visible", zIndex: 10 }}>
+      <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative", overflow: "visible", zIndex: 50 }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; } }`}</style>
         {/* Vine Container */}
-        <div style={{ position: "absolute", top: 0, left: 0, right: 0, width: "100%", height: "200px", overflow: "hidden", zIndex: 0 }}>
+        <div style={{ position: "absolute", top: 0, left: 0, right: 0, width: "100%", height: "200px", zIndex: 0 }}>
           {/* Main Vine Bridge */}
           <img
             id="main-vine"
