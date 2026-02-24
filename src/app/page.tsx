@@ -89,7 +89,7 @@ export default function Home() {
         id="main-vine"
         src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
         alt="Decorative leaf design"
-        style={{ position: "absolute", top: "-150px", left: "15%", width: "450px", zIndex: 99, pointerEvents: "none" }}
+        style={{ position: "absolute", top: "980px", left: "-5%", width: "600px", zIndex: 1, pointerEvents: "none", right: "auto" }}
       />
 
       {/* About Us Section */}
