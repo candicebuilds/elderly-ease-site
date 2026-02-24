@@ -82,7 +82,7 @@ export default function Home() {
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
           alt="Decorative leaf design"
-          style={{ maxHeight: "150px", width: "120%", objectFit: "contain", opacity: 0.4, pointerEvents: "none" }}
+          style={{ maxHeight: "150px", width: "120%", objectFit: "contain", opacity: 0.6, pointerEvents: "none", transform: "translateY(-20px)" }}
         />
       </div>
 
@@ -90,7 +90,7 @@ export default function Home() {
       <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-50px" }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -80px !important; } }`}</style>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
-        <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "60px", paddingBottom: "60px" }}>
+        <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "120px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight" style={{ color: "white", fontSize: "36px", fontWeight: "600" }}>About Us</h2>
 
           <div className="space-y-6" style={{ lineHeight: "1.6" }}>
