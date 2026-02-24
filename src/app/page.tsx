@@ -85,7 +85,7 @@ export default function Home() {
       <div className="opacity-40" style={{ position: "absolute", left: "15%", top: "-450px", width: "100%", zIndex: 99, right: "auto", bottom: "auto" }} />
 
       {/* About Us Section */}
-      <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative" }}>
+      <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-visible" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative" }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; } }`}</style>
         {/* Main Vine Bridge */}
         <img
