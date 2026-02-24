@@ -15,7 +15,7 @@ export default function Home() {
     setTimeout(() => setCopied(false), 2000);
   };
   return (
-    <div className="w-full bg-amber-50">
+    <div className="w-full bg-amber-50" style={{ overflowX: "hidden" }}>
       {/* Navigation */}
       <nav className="sticky top-0 z-50 bg-amber-50 border-b border-gray-200">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
@@ -96,14 +96,14 @@ export default function Home() {
             alt="Decorative leaf design"
             style={{ position: "absolute", top: "-125px", left: "-10%", width: "700px", zIndex: 20, pointerEvents: "none", opacity: 0.2 }}
           />
-          <style>{`@media (max-width: 768px) { #main-vine { top: -70px !important; width: 200px !important; left: -30% !important; } }`}</style>
+          <style>{`@media (max-width: 768px) { #main-vine { top: -70px !important; width: 320px !important; left: -15% !important; } }`}</style>
           <img
             id="right-vine"
             src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
             alt="Decorative leaf design"
             style={{ position: "absolute", top: "-125px", right: "-10%", width: "700px", zIndex: 20, pointerEvents: "none", opacity: 0.2, transform: "scaleX(-1)" }}
           />
-          <style>{`@media (max-width: 768px) { #right-vine { top: -70px !important; width: 450px !important; right: -15% !important; } }`}</style>
+          <style>{`@media (max-width: 768px) { #right-vine { top: -70px !important; width: 320px !important; right: -15% !important; } }`}</style>
         </div>
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "32px", fontWeight: "600" }}>About Us</h2>
