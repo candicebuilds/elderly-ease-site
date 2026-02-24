@@ -86,7 +86,7 @@ export default function Home() {
 
       {/* About Us Section */}
       <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px" }}>
-        <style>{`@media (min-width: 768px) { #about { margin-top: -80px !important; } }`}</style>
+        <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; } }`}</style>
         {/* Vine Overlap Image */}
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
