@@ -98,3 +98,12 @@ html {
 .contact-link:hover {
   color: #7b3f7e !important;
 }
+
+/* Override leaf-bg-top positioning */
+.leaf-bg-top {
+  left: 15% !important;
+  right: auto !important;
+  top: -450px !important;
+  bottom: auto !important;
+  width: 100% !important;
+}

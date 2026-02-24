@@ -82,15 +82,6 @@ export default function Home() {
       </div>
 
       {/* Background Leaf Pattern */}
-      <style>{`
-        .leaf-bg-top {
-          left: 15% !important;
-          top: -450px !important;
-          right: auto !important;
-          bottom: auto !important;
-          width: 100% !important;
-        }
-      `}</style>
       <div className="leaf-bg-top absolute opacity-40" style={{ zIndex: 99 }} />
 
       {/* About Us Section */}
