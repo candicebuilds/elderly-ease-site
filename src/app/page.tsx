@@ -84,16 +84,17 @@ export default function Home() {
       {/* Background Leaf Pattern */}
       <div className="opacity-40" style={{ position: "absolute", left: "15%", top: "-450px", width: "100%", zIndex: 99, right: "auto", bottom: "auto" }} />
 
+      {/* Main Vine Bridge */}
+      <img
+        id="main-vine"
+        src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
+        alt="Decorative leaf design"
+        style={{ position: "absolute", top: "-150px", left: "15%", width: "450px", zIndex: 99, pointerEvents: "none" }}
+      />
+
       {/* About Us Section */}
       <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px" }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; } }`}</style>
-        {/* Vine Overlap Image */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
-          alt="Decorative leaf design"
-          style={{ position: "absolute", top: "-30px", left: "50%", transform: "translateX(-50%)", width: "90%", maxWidth: "100%", objectFit: "contain", opacity: 0.15, pointerEvents: "none", zIndex: 1 }}
-          className="sm:w-full"
-        />
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "32px", fontWeight: "600" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
