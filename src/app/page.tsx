@@ -92,7 +92,7 @@ export default function Home() {
           id="main-vine"
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
           alt="Decorative leaf design"
-          style={{ position: "absolute", top: "820px", left: "-5%", width: "500px", zIndex: 1, pointerEvents: "none" }}
+          style={{ position: "absolute", top: "-50px", left: "-10%", width: "500px", zIndex: 1, pointerEvents: "none", opacity: 0.3 }}
         />
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "32px", fontWeight: "600" }}>About Us</h2>
