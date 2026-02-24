@@ -81,6 +81,9 @@ export default function Home() {
       <div className="w-full flex justify-center" style={{ backgroundColor: "#fffff0", padding: "0 20px", position: "relative", zIndex: 10, height: "150px" }}>
       </div>
 
+      {/* Background Leaf Pattern */}
+      <div className="leaf-bg-top absolute inset-0 opacity-10" />
+
       {/* About Us Section */}
       <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px" }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -80px !important; } }`}</style>
@@ -91,7 +94,6 @@ export default function Home() {
           style={{ position: "absolute", top: "-30px", left: "50%", transform: "translateX(-50%)", width: "90%", maxWidth: "100%", objectFit: "contain", opacity: 0.15, pointerEvents: "none", zIndex: 1 }}
           className="sm:w-full"
         />
-        <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "32px", fontWeight: "600" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
