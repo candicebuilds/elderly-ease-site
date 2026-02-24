@@ -79,16 +79,18 @@ export default function Home() {
 
       {/* Decorative Leaf Divider */}
       <div className="w-full flex justify-center" style={{ backgroundColor: "#fffff0", padding: "0 20px", position: "relative", zIndex: 10, height: "150px" }}>
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
-          alt="Decorative leaf design"
-          style={{ maxHeight: "150px", width: "120%", objectFit: "contain", opacity: 0.6, pointerEvents: "none", transform: "translateY(-20px)" }}
-        />
       </div>
 
       {/* About Us Section */}
-      <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-50px" }}>
+      <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px" }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -80px !important; } }`}</style>
+        {/* Vine Overlap Image */}
+        <img
+          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
+          alt="Decorative leaf design"
+          style={{ position: "absolute", top: "-100px", left: "50%", transform: "translateX(-50%)", width: "90%", maxWidth: "100%", objectFit: "contain", opacity: 0.6, pointerEvents: "none", zIndex: 5 }}
+          className="sm:w-full"
+        />
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "120px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight" style={{ color: "white", fontSize: "36px", fontWeight: "600" }}>About Us</h2>
