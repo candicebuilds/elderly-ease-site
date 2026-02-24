@@ -47,11 +47,11 @@ export default function Home() {
             {/* Hero Content */}
             <div className="flex flex-col justify-center space-y-6">
               <div>
-                <h1 className="text-5xl font-bold mb-4" style={{ color: "#585858" }}>
+                <h1 className="text-5xl font-bold mb-4 leading-tight" style={{ color: "#585858" }}>
                   Because asking for help should feel easy
                 </h1>
               </div>
-              <h2 className="text-xl leading-relaxed" style={{ color: "#585858" }}>
+              <h2 className="text-xl leading-tight" style={{ color: "#585858" }}>
                 Reliable support for elderly individuals in Edenvale and surrounds, delivered with heart and connection.
               </h2>
               <div className="flex gap-4 pt-4">
@@ -87,21 +87,21 @@ export default function Home() {
       </div>
 
       {/* About Us Section */}
-      <section id="about" className="relative py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-75px", paddingTop: "100px" }}>
+      <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-75px", paddingTop: "120px", paddingBottom: "120px", display: "flex", alignItems: "center", minHeight: "500px" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
         <div className="max-w-4xl mx-auto relative z-10">
-          <h2 className="text-3xl font-bold mb-8 text-center" style={{ color: "white", fontSize: "36px" }}>About Us</h2>
-          
+          <h2 className="text-3xl font-bold mb-8 text-center leading-tight" style={{ color: "white", fontSize: "36px", fontWeight: "600" }}>About Us</h2>
+
           <div className="space-y-6 leading-relaxed">
-      <p style={{ fontSize: "18px", color: "white" }}>
+      <p style={{ fontSize: "18px", color: "white", fontWeight: "600" }}>
         At Elderly Ease, our mission is to provide reliable, non-personal care assistance to elderly individuals who are independent but need help with everyday tasks. We are deeply committed to supporting seniors with compassion, respect, and dignity, ensuring they maintain their independence while receiving the practical help they need.
       </p>
 
-      <p style={{ fontSize: "18px", color: "white" }}>
+      <p style={{ fontSize: "18px", color: "white", fontWeight: "600" }}>
         As a family-run service rooted in our local community, we prioritize transparency, trust, and genuine connections. Our approach blends professional support with a warm, personal touch, making every client feel valued and understood.
       </p>
 
-      <p style={{ fontSize: "18px", color: "white" }}>
+      <p style={{ fontSize: "18px", color: "white", fontWeight: "600" }}>
         We believe that aging with ease means having dependable assistance tailored to your unique lifestyle, empowering you to live comfortably and confidently every day.
       </p>
     </div>
