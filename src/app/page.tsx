@@ -101,7 +101,7 @@ export default function Home() {
           alt="Decorative leaf design"
           style={{ position: "absolute", top: "-125px", right: "-10%", width: "700px", zIndex: 20, pointerEvents: "none", opacity: 0.2, transform: "scaleX(-1)" }}
         />
-        <style>{`@media (max-width: 768px) { #right-vine { top: -70px !important; width: 200px !important; right: -30% !important; } }`}</style>
+        <style>{`@media (max-width: 768px) { #right-vine { top: -70px !important; width: 450px !important; right: -15% !important; } }`}</style>
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "32px", fontWeight: "600" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
