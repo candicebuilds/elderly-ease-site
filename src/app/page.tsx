@@ -252,7 +252,7 @@ export default function Home() {
 
       {/* Why Choose Us Section */}
       <section id="why-us" className="relative py-20 px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#7b3f7e" }}>
-        <div className="leaf-bg-bottom absolute inset-0 opacity-10" />
+        <div className="leaf-bg-bottom absolute inset-0 opacity-10 w-full" />
         {/* Cream Vertical Leaves - Top Left */}
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fcf4a1c45728a4cbd9d9aab7f6b55e763"
