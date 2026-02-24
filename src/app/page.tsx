@@ -319,8 +319,8 @@ export default function Home() {
             {/* Pricing Card 1 - Essential */}
             <div className="bg-white rounded-xl overflow-hidden hover:shadow-xl transition border-t-4" style={{ borderTopColor: "#6ec6ca", boxShadow: "0 4px 6px -1px rgba(110, 198, 202, 0.2)" }}>
               <div className="p-8 flex flex-col h-full">
-                <div className="mb-4 w-12 h-12 flex justify-center">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2a1072e910434749b3a2591eb73ef5fb" alt="Essential icon" className="w-full h-full" />
+                <div className="mb-4 w-full flex justify-center">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2a1072e910434749b3a2591eb73ef5fb" alt="Essential icon" className="w-12 h-12" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Essential Ease</h3>
                 <div className="mb-6">
@@ -341,8 +341,8 @@ export default function Home() {
             {/* Pricing Card 2 - Comfort */}
             <div className="bg-white rounded-xl overflow-hidden hover:shadow-xl transition border-t-4" style={{ borderTopColor: "#e1a5af", boxShadow: "0 10px 15px -3px rgba(225, 165, 175, 0.2)" }}>
               <div className="p-8 bg-gradient-to-br from-gray-50 to-transparent flex flex-col h-full">
-                <div className="mb-4 w-12 h-12 flex justify-center">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F9f16e47037ff4660a990da920ea1104e" alt="Comfort icon" className="w-full h-full" />
+                <div className="mb-4 w-full flex justify-center">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F9f16e47037ff4660a990da920ea1104e" alt="Comfort icon" className="w-12 h-12" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Comfort Ease</h3>
                 <div className="mb-6">
@@ -363,8 +363,8 @@ export default function Home() {
             {/* Pricing Card 3 - Complete */}
             <div className="bg-white rounded-xl overflow-hidden hover:shadow-xl transition border-t-4" style={{ borderTopColor: "#7b3f7e", boxShadow: "0 4px 6px -1px rgba(123, 63, 126, 0.2)" }}>
               <div className="p-8 flex flex-col h-full">
-                <div className="mb-4 w-12 h-12 flex justify-center">
-                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fbd6b916d4eb44083837597738dbb5cfb" alt="Complete icon" className="w-full h-full" />
+                <div className="mb-4 w-full flex justify-center">
+                  <img src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fbd6b916d4eb44083837597738dbb5cfb" alt="Complete icon" className="w-12 h-12" />
                 </div>
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Complete Ease</h3>
                 <div className="mb-6">
