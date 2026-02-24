@@ -94,16 +94,14 @@ export default function Home() {
             id="main-vine"
             src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
             alt="Decorative leaf design"
-            style={{ position: "absolute", top: "-125px", left: "-10%", width: "700px", zIndex: 20, pointerEvents: "none", opacity: 0.2 }}
+            style={{ position: "absolute", top: "clamp(-125px, -8vw, -70px)", left: "clamp(-55%, -15vw, -10%)", width: "clamp(400px, 55vw, 700px)", zIndex: 20, pointerEvents: "none", opacity: 0.2 }}
           />
-          <style>{`@media (max-width: 768px) { #main-vine { top: -70px !important; width: 450px !important; left: -55% !important; } }`}</style>
           <img
             id="right-vine"
             src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
             alt="Decorative leaf design"
-            style={{ position: "absolute", top: "-125px", right: "-10%", width: "700px", zIndex: 20, pointerEvents: "none", opacity: 0.2, transform: "scaleX(-1)" }}
+            style={{ position: "absolute", top: "clamp(-125px, -8vw, -70px)", right: "clamp(-55%, -15vw, -10%)", width: "clamp(400px, 55vw, 700px)", zIndex: 20, pointerEvents: "none", opacity: 0.2, transform: "scaleX(-1)" }}
           />
-          <style>{`@media (max-width: 768px) { #right-vine { top: -70px !important; width: 450px !important; right: -55% !important; } }`}</style>
         </div>
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "32px", fontWeight: "600" }}>About Us</h2>
