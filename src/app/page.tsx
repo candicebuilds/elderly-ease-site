@@ -87,9 +87,9 @@ export default function Home() {
       </div>
 
       {/* About Us Section */}
-      <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-100px", paddingTop: "140px", paddingBottom: "140px", display: "flex", alignItems: "center", justifyContent: "center", minHeight: "600px" }}>
+      <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-100px" }}>
         <div className="leaf-bg-top absolute inset-0 opacity-10" />
-        <div className="max-w-4xl mx-auto relative z-10">
+        <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "140px", paddingBottom: "140px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight" style={{ color: "white", fontSize: "36px", fontWeight: "600" }}>About Us</h2>
 
           <div className="space-y-6" style={{ lineHeight: "1.6" }}>
