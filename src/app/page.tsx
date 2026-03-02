@@ -536,7 +536,7 @@ export default function Home() {
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Phone</p>
-                  <a href="tel:0689292847" className="font-medium contact-link">
+                  <a href="https://wa.me/27689292847" className="font-medium contact-link">
                     068 929 2847
                   </a>
                   <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for urgent needs. Please leave a message if we are with a client.</p>
