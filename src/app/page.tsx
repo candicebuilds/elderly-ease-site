@@ -329,7 +329,7 @@ export default function Home() {
                   <span className="text-4xl font-bold" style={{ color: "#6ec6ca" }}>R900</span>
                   <span style={{ color: "#585858" }}>/month</span>
                 </div>
-                <p className="mb-4 text-sm" style={{ color: "#585858" }}>4 hours per month</p>
+                <p className="mb-4 text-sm" style={{ color: "#585858", fontWeight: "500" }}>4 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Perfect for light support and everyday tasks.</p>
                 <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20chat%20about%20the%20Essential%20Ease%20package." target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca", color: "#585858", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
@@ -351,7 +351,7 @@ export default function Home() {
                   <span className="text-4xl font-bold" style={{ color: "#e1a5af" }}>R1350</span>
                   <span style={{ color: "#585858" }}>/month</span>
                 </div>
-                <p className="mb-4 text-sm" style={{ color: "#585858" }}>6 hours per month</p>
+                <p className="mb-4 text-sm" style={{ color: "#585858", fontWeight: "500" }}>6 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Ongoing support and peace of mind.</p>
                 <a href="https://wa.me/27689292847?text=Hi!%20I'm%20interested%20in%20the%20Comfort%20Ease%20package." target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af", color: "#585858", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
@@ -373,7 +373,7 @@ export default function Home() {
                   <span className="text-4xl font-bold" style={{ color: "#7b3f7e" }}>R1800</span>
                   <span style={{ color: "#585858" }}>/month</span>
                 </div>
-                <p className="mb-4 text-sm" style={{ color: "#585858" }}>8 hours per month</p>
+                <p className="mb-4 text-sm" style={{ color: "#585858", fontWeight: "500" }}>8 hours per month</p>
                 <p className="mb-6 flex-grow" style={{ color: "#585858" }}>Comprehensive care with connection and confidence.</p>
                 <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20discuss%20the%20Complete%20Ease%20package." target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
