@@ -137,7 +137,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Home Management & Daily Living
               </h3>
-              <p className="font-medium italic mb-4" style={{ color: "#585858", borderWidth: "1px", borderColor: "#585858", borderStyle: "solid", padding: "12px" }}>
+              <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
                 Because staying connected should feel easy.
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
@@ -173,7 +173,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Personal Concierge & Logistics
               </h3>
-              <p className="font-medium italic mb-4" style={{ color: "#585858", borderWidth: "1px", borderColor: "#585858", borderStyle: "solid", padding: "12px" }}>
+              <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
                 Because life runs smoother with a helping hand.
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
