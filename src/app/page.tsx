@@ -225,7 +225,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Wellness, Companionship & Legacy
               </h3>
-              <p className="font-medium italic mb-4" style={{ color: "#585858", borderWidth: "1px", borderColor: "#585858", borderStyle: "solid", padding: "12px" }}>
+              <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
                 Because care should feel like connection.
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
