@@ -134,7 +134,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {/* Service 1: Home Management */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858", fontWeight: "600" }}>
                 Home Management & Daily Living
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
@@ -143,34 +143,34 @@ export default function Home() {
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Housekeeping:</strong> Light cleaning such as rubbish removal, dishes, dusting, and laundry.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Housekeeping:</strong> Light cleaning such as rubbish removal, dishes, dusting, and laundry.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Meal Preparation:</strong> Support with planning, shopping, and cooking.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Meal Preparation:</strong> Support with planning, shopping, and cooking.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>House Maintenance:</strong> Everyday fixes like oiling hinges, hanging pictures, or changing bulbs.</span>
+                  <span><strong style={{ fontWeight: "600" }}>House Maintenance:</strong> Everyday fixes like oiling hinges, hanging pictures, or changing bulbs.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Seasonal Prep:</strong> Patio furniture, wardrobe swaps, and organizing seasonal items.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Seasonal Prep:</strong> Patio furniture, wardrobe swaps, and organizing seasonal items.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Decluttering & Downsizing:</strong> Closet clean‑outs, donations, or packing boxes.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Decluttering & Downsizing:</strong> Closet clean‑outs, donations, or packing boxes.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Pet Care:</strong> Dog walking, litter box cleaning, and everyday pet support.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Pet Care:</strong> Dog walking, litter box cleaning, and everyday pet support.</span>
                 </li>
               </ul>
             </div>
 
             {/* Service 2: Concierge */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858", fontWeight: "600" }}>
                 Personal Concierge & Logistics
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
@@ -179,26 +179,26 @@ export default function Home() {
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Transportation:</strong> Safe, reliable trips for appointments, errands, and social outings.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Transportation:</strong> Safe, reliable trips for appointments, errands, and social outings.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Shopping Assistance:</strong> Groceries, pharmacy pickups, and more.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Shopping Assistance:</strong> Groceries, pharmacy pickups, and more.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Appointment Scheduling:</strong> Booking doctors, hairdressers, or home repairs.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Appointment Scheduling:</strong> Booking doctors, hairdressers, or home repairs.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Gift Concierge:</strong> Selecting, wrapping, and mailing gifts for loved ones.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Gift Concierge:</strong> Selecting, wrapping, and mailing gifts for loved ones.</span>
                 </li>
               </ul>
             </div>
 
             {/* Service 3: Technology */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858", fontWeight: "600" }}>
                 Technology & Digital Confidence
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
@@ -207,22 +207,22 @@ export default function Home() {
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Digital Support:</strong> Guidance with phones, TVs, apps, and social media.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Digital Support:</strong> Guidance with phones, TVs, apps, and social media.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Cybersecurity Basics:</strong> Strong passwords and spotting phishing attempts.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Cybersecurity Basics:</strong> Strong passwords and spotting phishing attempts.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Digital Legacy:</strong> Digitizing photo albums and organizing memories to share with family.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Digital Legacy:</strong> Digitizing photo albums and organizing memories to share with family.</span>
                 </li>
               </ul>
             </div>
 
             {/* Service 4: Wellness */}
             <div className="bg-white p-8 rounded-xl transition hover:shadow-lg" style={{ minHeight: "460px", borderRadius: "12px", boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.1)" }}>
-              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
+              <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858", fontWeight: "600" }}>
                 Wellness, Companionship & Legacy
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
@@ -231,19 +231,19 @@ export default function Home() {
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Companionship:</strong> Friendly visits to ease isolation.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Companionship:</strong> Friendly visits to ease isolation.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Walking Buddy:</strong> Gentle exercise with a supportive partner.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Walking Buddy:</strong> Gentle exercise with a supportive partner.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Memoir & Legacy:</strong> Recording life stories, family recipes, or labeling heirlooms.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Memoir & Legacy:</strong> Recording life stories, family recipes, or labeling heirlooms.</span>
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong>Hobbies & Pastimes:</strong> Gardening, puzzles, games, and activities that spark joy.</span>
+                  <span><strong style={{ fontWeight: "600" }}>Hobbies & Pastimes:</strong> Gardening, puzzles, games, and activities that spark joy.</span>
                 </li>
               </ul>
             </div>
@@ -276,28 +276,28 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Dignity First</h3>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600", lineHeight: "32px" }}>Dignity First</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 Every service is delivered with respect, care, and a focus on independence.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Transparent & Reliable</h3>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600", lineHeight: "32px" }}>Transparent & Reliable</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 Clear policies, fair pricing, and trustworthy support you can count on.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Family‑Run with Heart</h3>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600", lineHeight: "32px" }}>Family‑Run with Heart</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 A local, family‑driven business built on compassion and community.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Holistic Support</h3>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600", lineHeight: "32px" }}>Holistic Support</h3>
               <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 From daily tasks to companionship and hobbies, we make life easier and more joyful.
               </p>
@@ -446,7 +446,7 @@ export default function Home() {
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
                 <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "24px" }}>
-                  <span style={{ color: "#7b3f7e" }}>Candice</span> keeps the hinges oiled and the spirits lifted. From booking appointments to wrapping gifts and even wrangling tricky tech, she adds a dash of creativity to everyday fixes—making life run smoother with a smile.
+                  <span style={{ color: "#585858", fontWeight: "600" }}>Candice</span> keeps the hinges oiled and the spirits lifted. From booking appointments to wrapping gifts and even wrangling tricky tech, she adds a dash of creativity to everyday fixes—making life run smoother with a smile.
                 </p>
               </div>
             </div>
@@ -463,7 +463,7 @@ export default function Home() {
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
                 <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "24px" }}>
-                  <span style={{ color: "#7b3f7e" }}>Colleen</span> is the sunshine in every visit. Whether she's tending gardens, puzzling over crosswords, or chauffeuring with care, she turns errands into adventures and companionship into laughter.
+                  <span style={{ color: "#585858", fontWeight: "600" }}>Colleen</span> is the sunshine in every visit. Whether she's tending gardens, puzzling over crosswords, or chauffeuring with care, she turns errands into adventures and companionship into laughter.
                 </p>
               </div>
             </div>
@@ -480,7 +480,7 @@ export default function Home() {
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
                 <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "24px" }}>
-                  <span style={{ color: "#7b3f7e" }}>Carolyn</span> is happiest with paws pattering beside her. She's the walking buddy pets adore and the everyday helper households rely on—whether it's a wagging tail, a tidy corner, or a cherished story, Carolyn brings heart to every step.
+                  <span style={{ color: "#585858", fontWeight: "600" }}>Carolyn</span> is happiest with paws pattering beside her. She's the walking buddy pets adore and the everyday helper households rely on—whether it's a wagging tail, a tidy corner, or a cherished story, Carolyn brings heart to every step.
                 </p>
               </div>
             </div>
@@ -494,7 +494,7 @@ export default function Home() {
           <h2 className="text-4xl font-bold mb-8" style={{ color: "#585858" }}>Contact Us</h2>
 
           <div className="bg-white rounded-xl shadow-lg p-12 space-y-8">
-            <h3 className="text-2xl font-bold" style={{ color: "#585858" }}>
+            <h3 className="text-2xl font-bold" style={{ color: "#585858", fontWeight: "600" }}>
               Let's make life easier together
             </h3>
 

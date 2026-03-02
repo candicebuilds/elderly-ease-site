@@ -8,7 +8,7 @@ export default function PageFooter() {
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12 max-w-3xl mx-auto">
           <p style={{ color: "white", fontSize: "14px", lineHeight: "22px", fontFamily: "Poppins, sans-serif" }}>
-            <strong>Service Areas</strong>
+            <strong style={{ fontWeight: "500" }}>Service Areas</strong>
             <br />
             Based in Hurlyvale, we provide heart-centered support to families within a 10km radius, including: Edenvale Central, Greenstone Hill, Modderfontein, Bedfordview, Morninghill, Dowerglen, Dunvegan, Highway Gardens, Buurendal, Illiondale, and Isandovale.
           </p>
