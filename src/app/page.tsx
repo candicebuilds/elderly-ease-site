@@ -109,15 +109,11 @@ export default function Home() {
 
           <div className="space-y-6" style={{ lineHeight: "1.6" }}>
       <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
-        At Elderly Ease, our mission is to provide reliable, non-personal care assistance to elderly individuals who are independent but need help with everyday tasks. We are deeply committed to supporting seniors with compassion, respect, and dignity, ensuring they maintain their independence while receiving the practical help they need.
+        At Elderly Ease, we believe that growing older shouldn't mean losing your connection to the community you love. Based in the quiet streets of Hurlyvale, our mission is simple: to provide reliable, compassionate support that makes daily living feel effortless again. Whether it's navigating new technology, tending to a beloved garden, or simply having a friendly face to share a cup of tea with, we are here to bridge the gap between needing help and receiving it with dignity.
       </p>
 
       <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
-        As a family-run service rooted in our local community, we prioritize transparency, trust, and genuine connections. Our approach blends professional support with a warm, personal touch, making every client feel valued and understood.
-      </p>
-
-      <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
-        We believe that aging with ease means having dependable assistance tailored to your unique lifestyle, empowering you to live comfortably and confidently every day.
+        We understand that every individual has a unique story. That's why our team—Candice, Colleen, and Carolyn—focuses on more than just tasks; we focus on heart and connection. Serving Edenvale and surrounds, including Greenstone Hill, Bedfordview, and Dowerglen, we take pride in being the local support system that families can trust. We aren't just a service provider; we are your neighbors, dedicated to ensuring that our seniors feel seen, heard, and supported right here at home.
       </p>
     </div>
         </div>
