@@ -107,7 +107,7 @@ export default function Home() {
       <section id="services" className="py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold text-center" style={{ color: "#585858" }}>Services</h2>
-          <p className="text-center mb-6 text-lg" style={{ color: "#585858", marginRight: "104px", maxWidth: "672px" }}>
+          <p className="text-center mb-6 max-w-2xl mx-auto text-lg" style={{ color: "#585858" }}>
             Comprehensive care tailored to your unique needs and lifestyle
           </p>
 
