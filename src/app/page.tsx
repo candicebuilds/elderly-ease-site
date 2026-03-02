@@ -386,7 +386,7 @@ export default function Home() {
           </div>
 
           {/* Additional Pricing Options */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 auto-rows-fr">
             <div className="bg-white rounded-xl shadow-md h-full">
               <div className="p-8 flex flex-col h-full">
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
