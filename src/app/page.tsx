@@ -395,7 +395,7 @@ export default function Home() {
           style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
         />
         <div className="max-w-6xl mx-auto relative z-10">
-          <h2 className="text-4xl font-bold mb-12 text-center" style={{ color: "#585858" }}><p style={{ margin: "24px", marginBottom: "24px" }}>Meet the Team</p></h2>
+          <h2 className="text-4xl font-bold mb-12 text-center" style={{ color: "#585858" }}><p style={{ margin: "0 0 24px" }}>Meet the Team</p></h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {/* Team Member 1 */}
