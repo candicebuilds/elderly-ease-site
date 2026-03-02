@@ -508,7 +508,7 @@ export default function Home() {
                   <a href="https://wa.me/27689292847" className="font-medium contact-link block mb-2">
                     Start Chat or Voice Note
                   </a>
-                  <span className="inline-block text-sm font-medium px-2 py-1 rounded" style={{ backgroundColor: "#6ec6ca", color: "white", marginTop: "10px" }}>Fastest Response</span>
+                  <span className="inline-block text-sm font-medium px-2 py-1 rounded" style={{ backgroundColor: "#6ec6ca", color: "#585858", marginTop: "10px" }}>Fastest Response</span>
                 </div>
               </div>
 
