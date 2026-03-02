@@ -108,11 +108,11 @@ export default function Home() {
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
 
           <div className="space-y-6" style={{ lineHeight: "1.6" }}>
-      <p style={{ fontSize: "16px", color: "white", fontWeight: "600", lineHeight: "1.6" }}>
+      <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
         At Elderly Ease, our mission is to provide reliable, non-personal care assistance to elderly individuals who are independent but need help with everyday tasks. We are deeply committed to supporting seniors with compassion, respect, and dignity, ensuring they maintain their independence while receiving the practical help they need.
       </p>
 
-      <p style={{ fontSize: "16px", color: "white", fontWeight: "600", lineHeight: "1.6" }}>
+      <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
         As a family-run service rooted in our local community, we prioritize transparency, trust, and genuine connections. Our approach blends professional support with a warm, personal touch, making every client feel valued and understood.
       </p>
 
