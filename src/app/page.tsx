@@ -387,7 +387,7 @@ export default function Home() {
 
           {/* Additional Pricing Options */}
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="bg-white rounded-xl shadow-md">
+            <div className="bg-white rounded-xl shadow-md h-full">
               <div className="p-8 flex flex-col h-full">
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
@@ -397,7 +397,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="bg-white rounded-xl shadow-md">
+            <div className="bg-white rounded-xl shadow-md h-full">
               <div className="p-8 flex flex-col h-full">
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Hourly Ease</h3>
                 <p className="mb-4" style={{ color: "#585858" }}>
