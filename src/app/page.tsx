@@ -15,9 +15,9 @@ export default function Home() {
     setTimeout(() => setCopied(false), 2000);
   };
   return (
-    <div className="w-full bg-amber-50" style={{ overflowX: "hidden" }}>
+    <div className="w-full" style={{ overflowX: "hidden", backgroundColor: "#fffff0" }}>
       {/* Navigation */}
-      <nav className="sticky top-0 z-50 bg-amber-50 border-b border-gray-200">
+      <nav className="sticky top-0 z-50 border-b border-gray-200" style={{ backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center hover:opacity-80 transition" style={{ gap: "2px" }}>
             <img
@@ -41,7 +41,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative overflow-visible py-20 px-4 sm:px-6 lg:px-8 bg-amber-50" style={{ zIndex: 10 }}>
+      <section className="relative overflow-visible py-20 px-4 sm:px-6 lg:px-8" style={{ zIndex: 10, backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
@@ -124,7 +124,7 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section id="services" className="py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>Services</h2>
           <p className="text-center mb-12 max-w-2xl mx-auto text-lg" style={{ color: "#585858" }}>
@@ -307,7 +307,7 @@ export default function Home() {
       </section>
 
       {/* Pricing Section */}
-      <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section id="pricing" className="py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto">
           <h2 className="text-4xl font-bold mb-4 text-center" style={{ color: "#585858" }}>
             Pricing
@@ -489,7 +489,7 @@ export default function Home() {
       </section>
 
       {/* Contact Section */}
-      <section id="get-in-touch" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section id="get-in-touch" className="py-20 px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#fffff0" }}>
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-8" style={{ color: "#585858" }}>Contact Us</h2>
 
