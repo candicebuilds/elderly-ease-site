@@ -201,7 +201,7 @@ export default function Home() {
               <h3 className="text-2xl font-bold mb-3" style={{ color: "#585858" }}>
                 Technology & Digital Confidence
               </h3>
-              <p className="font-medium italic mb-4" style={{ color: "#6ec6ca" }}>
+              <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
                 Because staying connected should feel easy.
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
