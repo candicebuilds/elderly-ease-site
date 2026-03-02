@@ -87,22 +87,6 @@ export default function Home() {
       {/* About Us Section */}
       <section id="about" className="relative px-4 sm:px-6 lg:px-8" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative", overflow: "visible", zIndex: 50 }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; } }`}</style>
-        {/* Vine Container */}
-        <div style={{ position: "absolute", top: 0, left: 0, right: 0, width: "100%", height: "200px", zIndex: 0 }}>
-          {/* Main Vine Bridge */}
-          <img
-            id="main-vine"
-            src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
-            alt="Decorative leaf design"
-            style={{ position: "absolute", top: "clamp(-125px, -8vw, -70px)", left: "clamp(-55%, -15vw, -10%)", width: "clamp(400px, 55vw, 700px)", zIndex: 20, pointerEvents: "none", opacity: 0.2 }}
-          />
-          <img
-            id="right-vine"
-            src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Feb057c6ce10b4ef99209af4ba76d34a2"
-            alt="Decorative leaf design"
-            style={{ position: "absolute", top: "clamp(-125px, -8vw, -70px)", right: "clamp(-55%, -15vw, -10%)", width: "clamp(400px, 55vw, 700px)", zIndex: 20, pointerEvents: "none", opacity: 0.2, transform: "scaleX(-1)" }}
-          />
-        </div>
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
