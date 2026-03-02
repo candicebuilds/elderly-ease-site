@@ -104,7 +104,7 @@ export default function Home() {
           />
         </div>
         <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "80px", paddingBottom: "60px" }}>
-          <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "600" }}>About Us</h2>
+          <h2 className="text-3xl font-bold mb-8 text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
 
           <div className="space-y-6" style={{ lineHeight: "1.6" }}>
@@ -276,29 +276,29 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600" }}>Dignity First</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Dignity First</h3>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 Every service is delivered with respect, care, and a focus on independence.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600" }}>Transparent & Reliable</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Transparent & Reliable</h3>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 Clear policies, fair pricing, and trustworthy support you can count on.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600" }}>Family‑Run with Heart</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Family‑Run with Heart</h3>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 A local, family‑driven business built on compassion and community.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl">
-              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "600" }}>Holistic Support</h3>
-              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "1.6" }}>
+              <h3 className="text-xl mb-3" style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontSize: "24px", fontWeight: "700", lineHeight: "32px" }}>Holistic Support</h3>
+              <p style={{ color: "#585858", fontFamily: "Poppins, sans-serif", fontWeight: "400", fontSize: "16px", lineHeight: "24px" }}>
                 From daily tasks to companionship and hobbies, we make life easier and more joyful.
               </p>
             </div>
@@ -445,7 +445,7 @@ export default function Home() {
                 />
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
-                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
+                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "24px" }}>
                   <span style={{ color: "#7b3f7e" }}>Candice</span> keeps the hinges oiled and the spirits lifted. From booking appointments to wrapping gifts and even wrangling tricky tech, she adds a dash of creativity to everyday fixes—making life run smoother with a smile.
                 </p>
               </div>
@@ -462,7 +462,7 @@ export default function Home() {
                 />
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
-                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
+                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "24px" }}>
                   <span style={{ color: "#7b3f7e" }}>Colleen</span> is the sunshine in every visit. Whether she's tending gardens, puzzling over crosswords, or chauffeuring with care, she turns errands into adventures and companionship into laughter.
                 </p>
               </div>
@@ -479,7 +479,7 @@ export default function Home() {
                 />
               </div>
               <div className="px-6" style={{ paddingTop: "30px", paddingBottom: "24px" }}>
-                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "1.6" }}>
+                <p className="text-gray-700" style={{ fontSize: "16px", fontFamily: "Poppins, sans-serif", fontWeight: "400", lineHeight: "24px" }}>
                   <span style={{ color: "#7b3f7e" }}>Carolyn</span> is happiest with paws pattering beside her. She's the walking buddy pets adore and the everyday helper households rely on—whether it's a wagging tail, a tidy corner, or a cherished story, Carolyn brings heart to every step.
                 </p>
               </div>
@@ -526,7 +526,7 @@ export default function Home() {
                   <a href="mailto:hello@elderlyease.co.za" className="font-medium contact-link">
                     hello@elderlyease.co.za
                   </a>
-                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for custom quotes & non-urgent questions.</p>
+                  <p className="text-sm mt-2" style={{ color: "#585858", lineHeight: "22px" }}>Best for custom quotes & non-urgent questions.</p>
                 </div>
               </div>
 
@@ -539,7 +539,7 @@ export default function Home() {
                   <a href="https://wa.me/27689292847" className="font-medium contact-link">
                     068 929 2847
                   </a>
-                  <p className="text-sm mt-2" style={{ color: "#585858" }}>Best for urgent needs. Please leave a message if we are with a client.</p>
+                  <p className="text-sm mt-2" style={{ color: "#585858", lineHeight: "22px" }}>Best for urgent needs. Please leave a message if we are with a client.</p>
                 </div>
               </div>
             </div>
