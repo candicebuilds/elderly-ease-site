@@ -365,6 +365,9 @@ export default function Home() {
             <div className="bg-white rounded-xl shadow-md h-full">
               <div className="p-8 flex flex-col h-full text-center">
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
+                <div className="mb-6">
+                  <p className="text-4xl font-bold" style={{ color: "#585858" }}>Individually Quoted</p>
+                </div>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
                 <a href="mailto:hello@elderlyease.co.za?subject=Quote%20Request:%20Custom%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
