@@ -89,14 +89,14 @@ export default function Home() {
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
           alt="Decorative cream circle leaves"
           className="absolute"
-          style={{ top: "-100px", left: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
+          style={{ top: "-100px", left: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.05, pointerEvents: "none" }}
         />
         {/* Cream Circle Leaves - Bottom Right */}
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
           alt="Decorative cream circle leaves"
           className="absolute"
-          style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
+          style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.05, pointerEvents: "none" }}
         />
         <div className="mx-auto relative z-10" style={{ maxWidth: "800px", paddingTop: "50px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px", marginBottom: "24px" }}>About Us</h2>
