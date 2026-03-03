@@ -10,11 +10,11 @@ export default function LegalPageHeader() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center hover:opacity-80 transition" style={{ gap: "2px" }}>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F98028f76e4674fc9aa08d301a72839b6"
+              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Faad9320e5dd04b1db64483a555c1c5eb"
               alt="Elderly Ease Logo"
               className="w-10 h-10"
             />
-            <span className="font-bold" style={{ color: "#585858" }}>Elderly Ease</span>
+            <span className="font-bold" style={{ color: "#7b3f7e" }}>Elderly Ease</span>
           </a>
         </div>
       </nav>
