@@ -15,7 +15,7 @@ export default function Home() {
     setTimeout(() => setCopied(false), 2000);
   };
   return (
-    <div className="w-full" style={{ overflowX: "hidden", backgroundColor: "#fffff0" }}>
+    <div className="w-full" style={{ backgroundColor: "#fffff0" }}>
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b border-gray-200" style={{ backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
