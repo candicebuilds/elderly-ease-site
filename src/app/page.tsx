@@ -2,8 +2,6 @@
 
 import Image from "next/image";
 import { useState } from 'react';
-import { FiPhone, FiMail } from 'react-icons/fi'
-import { FaWhatsapp } from 'react-icons/fa'
 import PageFooter from '@/components/PageFooter';
 
 export default function Home() {
@@ -484,7 +482,9 @@ export default function Home() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col items-center gap-4">
                 <div className="text-4xl" style={{ color: "#585858" }} aria-hidden="false">
-                  <FaWhatsapp aria-label="WhatsApp icon" />
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" aria-label="WhatsApp icon">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.076 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421-7.403h-.004c-1.325 0-2.651-.402-3.798-1.162L6.736 3.248l1.536 4.518c-.797 1.127-1.219 2.426-1.219 3.799 0 3.747 3.053 6.8 6.8 6.8 1.823 0 3.53-.726 4.822-2.009 1.291-1.283 2.009-2.999 2.009-4.823 0-3.748-3.053-6.8-6.8-6.8zm5.904-1.98C14.977 2.54 12.06 1.513 8.959 1.513 4.571 1.513.965 5.119.965 9.507c0 1.921.544 3.797 1.573 5.48L1.08 23.487l5.769-1.906c1.638.894 3.49 1.365 5.39 1.365 4.388 0 7.994-3.606 7.994-7.994 0-2.138-.848-4.14-2.389-5.639"/>
+                  </svg>
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
@@ -497,7 +497,10 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-4">
                 <button className="text-4xl relative" style={{ color: "#585858", cursor: "pointer", background: "none", border: "none", padding: 0 }} onClick={handleCopyEmail} aria-label="Copy email address to clipboard" title="Click to copy email address">
-                  <FiMail />
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                  </svg>
                   {copied && (
                     <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 bg-gray-800 text-white text-xs px-2 py-1 rounded whitespace-nowrap pointer-events-none" role="status" aria-live="polite">
                       Copied!
@@ -515,7 +518,9 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-4">
                 <div className="text-4xl" style={{ color: "#585858" }} aria-hidden="false">
-                  <FiPhone aria-label="Phone icon" />
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-label="Phone icon">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Phone</p>

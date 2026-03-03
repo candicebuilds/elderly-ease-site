@@ -1,9 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  experimental: {
-    optimizePackageImports: ["react-icons"],
-  },
+  // Turbopack is enabled by default in Next.js 16
 };
 
 export default nextConfig;
