@@ -399,14 +399,14 @@ export default function Home() {
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
           alt="Decorative cream circle leaves"
           className="absolute"
-          style={{ top: "-100px", left: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.1, pointerEvents: "none" }}
+          style={{ top: "-100px", left: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
         />
         {/* Cream Circle Leaves - Bottom Right */}
         <img
           src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
           alt="Decorative cream circle leaves"
           className="absolute"
-          style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.1, pointerEvents: "none" }}
+          style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
         />
         <div className="max-w-6xl mx-auto relative z-10">
           <h2 className="text-4xl font-bold mb-12 text-center" style={{ color: "#585858" }}><p style={{ margin: "0 0 24px" }}>Meet the Team</p></h2>
