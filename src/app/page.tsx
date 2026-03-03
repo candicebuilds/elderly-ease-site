@@ -83,21 +83,6 @@ export default function Home() {
       {/* About Us Section */}
       <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative", overflow: "visible", zIndex: 50 }}>
         <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; } }`}</style>
-        <div className="leaf-bg-top absolute inset-0 opacity-10" />
-        {/* Cream Circle Leaves - Top Left */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
-          alt="Decorative cream circle leaves"
-          className="absolute"
-          style={{ top: "-100px", left: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.05, pointerEvents: "none" }}
-        />
-        {/* Cream Circle Leaves - Bottom Right */}
-        <img
-          src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F2340e3d29060413dab8205bc6847cfbe"
-          alt="Decorative cream circle leaves"
-          className="absolute"
-          style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.05, pointerEvents: "none" }}
-        />
         <div className="mx-auto relative z-10" style={{ maxWidth: "800px", paddingTop: "50px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px", marginBottom: "24px" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
