@@ -98,7 +98,7 @@ export default function Home() {
           className="absolute"
           style={{ bottom: "-100px", right: "-100px", width: "400px", height: "400px", zIndex: 0, opacity: 0.2, pointerEvents: "none" }}
         />
-        <div className="max-w-4xl mx-auto relative z-10" style={{ paddingTop: "50px", paddingBottom: "60px" }}>
+        <div className="mx-auto relative z-10" style={{ maxWidth: "800px", paddingTop: "50px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px", marginBottom: "24px" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
 
