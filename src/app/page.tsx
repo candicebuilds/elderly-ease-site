@@ -365,7 +365,7 @@ export default function Home() {
             <div className="bg-white rounded-xl shadow-md h-full">
               <div className="p-8 flex flex-col h-full text-center">
                 <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
-                <div className="mb-6">
+                <div className="mb-4">
                   <p className="text-4xl font-bold" style={{ color: "#585858" }}>Individually Quoted</p>
                 </div>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
