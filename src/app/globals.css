@@ -1,26 +1,141 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #fffff0;
+  --foreground: #2d2d2d;
+  --brand-rose: #e1a5af;
+  --brand-purple: #7b3f7e;
+  --brand-teal: #6ec6ca;
+  --font-poppins: "Poppins", sans-serif;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --color-brand-rose: var(--brand-rose);
+  --color-brand-purple: var(--brand-purple);
+  --color-brand-teal: var(--brand-teal);
+  --font-sans: var(--font-poppins);
 }
 
 body {
-  background: var(--background);
+  background-color: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Utility classes */
+/* Screen reader only class (WCAG accessible content) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus\:not-sr-only:focus-visible {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
+/* Removed conflicting ::before pseudo-element */
+
+.leaf-bg-bottom::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 180px;
+  height: 180px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M50 90 Q20 70 20 40 Q40 20 60 20 Q70 40 65 60 Q60 80 50 90' fill='%23a8d4d6' opacity='0.15'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-size: contain;
+  pointer-events: none;
+}
+
+/* Navigation link styling */
+.nav-link {
+  color: #585858;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #e1a5af !important;
+}
+
+
+/* Footer Quick Links and Legal links hover color */
+.footer-link {
+  color: currentColor;
+  transition: color 0.3s ease;
+  position: relative;
+}
+
+.footer-link:hover {
+  color: #e1a5af !important;
+  text-decoration: underline;
+}
+
+/* Email alternative link hover color */
+.email-alt-link {
+  color: #585858;
+  transition: color 0.3s ease;
+}
+
+.email-alt-link:hover {
+  color: #7b3f7e !important;
+  text-decoration: underline;
+}
+
+/* Contact section links hover color */
+.contact-link {
+  color: #585858 !important;
+  transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+  color: #7b3f7e !important;
+}
+
+/* Focus indicators for keyboard navigation (WCAG 2.4.7) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #7b3f7e;
+  outline-offset: 2px;
+}
+
+/* Ensure all interactive elements show focus */
+.nav-link:focus-visible {
+  outline: 3px solid #7b3f7e;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.footer-link:focus-visible {
+  outline: 3px solid #e1a5af;
+  outline-offset: 2px;
+}
+
+.email-alt-link:focus-visible {
+  outline: 3px solid #7b3f7e;
+  outline-offset: 2px;
 }

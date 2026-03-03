@@ -1,0 +1,31 @@
+import LegalPageHeader from '@/components/LegalPageHeader';
+import PageFooter from '@/components/PageFooter';
+
+export default function PrivacyNotice() {
+  return (
+    <div className="w-full bg-amber-50">
+      <LegalPageHeader />
+
+      {/* Main Content */}
+      <section id="main-content" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+        <div className="max-w-4xl mx-auto">
+          <h1 className="font-bold mb-12" style={{ color: "#585858", fontSize: "24px" }}>Privacy Notice (POPIA Compliance)</h1>
+
+          <div className="space-y-6 leading-relaxed" style={{ color: "#585858" }}>
+            <p style={{ fontSize: "16px" }}>
+              Elderly Ease respects your privacy. We only collect the personal information necessary to provide your service (such as your name, address, and emergency contacts). We keep this info secure and will never share it with third parties unless required for a medical emergency. You may ask to see or delete your info at any time.
+            </p>
+          </div>
+
+          <div className="mt-12 pt-8 border-t border-gray-300">
+            <a href="/" className="font-medium footer-link" style={{ color: "#585858" }}>
+              ← Back to Home
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <PageFooter />
+    </div>
+  );
+}
