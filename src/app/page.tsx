@@ -16,6 +16,11 @@ export default function Home() {
   };
   return (
     <div className="w-full" style={{ backgroundColor: "#fffff0" }}>
+      {/* Skip to main content link (WCAG 2.4.1) */}
+      <a href="#main-content" className="sr-only focus:not-sr-only focus:fixed focus:top-0 focus:left-0 focus:z-[9999] focus:bg-purple-600 focus:text-white focus:px-4 focus:py-2" style={{ padding: "8px 16px" }}>
+        Skip to main content
+      </a>
+
       {/* Navigation */}
       <nav className="sticky top-0 z-50 border-b border-gray-200" style={{ backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
@@ -41,7 +46,7 @@ export default function Home() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative overflow-visible py-20 px-4 sm:px-6 lg:px-8" style={{ zIndex: 10, backgroundColor: "#fffff0" }}>
+      <section id="main-content" className="relative overflow-visible py-20 px-4 sm:px-6 lg:px-8" style={{ zIndex: 10, backgroundColor: "#fffff0" }}>
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Hero Content */}
@@ -478,8 +483,8 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl" style={{ color: "#585858" }}>
-                  <FaWhatsapp />
+                <div className="text-4xl" style={{ color: "#585858" }} aria-hidden="false">
+                  <FaWhatsapp aria-label="WhatsApp icon" />
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
@@ -491,14 +496,14 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl relative" style={{ color: "#585858", cursor: "pointer" }} onClick={handleCopyEmail}>
+                <button className="text-4xl relative" style={{ color: "#585858", cursor: "pointer", background: "none", border: "none", padding: 0 }} onClick={handleCopyEmail} aria-label="Copy email address to clipboard" title="Click to copy email address">
                   <FiMail />
                   {copied && (
-                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 bg-gray-800 text-white text-xs px-2 py-1 rounded whitespace-nowrap pointer-events-none">
+                    <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 bg-gray-800 text-white text-xs px-2 py-1 rounded whitespace-nowrap pointer-events-none" role="status" aria-live="polite">
                       Copied!
                     </div>
                   )}
-                </div>
+                </button>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Email</p>
                   <a href="mailto:hello@elderlyease.co.za" className="font-medium contact-link">
@@ -509,8 +514,8 @@ export default function Home() {
               </div>
 
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl" style={{ color: "#585858" }}>
-                  <FiPhone />
+                <div className="text-4xl" style={{ color: "#585858" }} aria-hidden="false">
+                  <FiPhone aria-label="Phone icon" />
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Phone</p>

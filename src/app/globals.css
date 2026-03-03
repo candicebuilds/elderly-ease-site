@@ -30,6 +30,30 @@ html {
 }
 
 /* Utility classes */
+/* Screen reader only class (WCAG accessible content) */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.focus\:not-sr-only:focus-visible {
+  position: static;
+  width: auto;
+  height: auto;
+  padding: 8px 16px;
+  margin: 0;
+  overflow: visible;
+  clip: auto;
+  white-space: normal;
+}
+
 /* Removed conflicting ::before pseudo-element */
 
 .leaf-bg-bottom::before {
@@ -87,4 +111,31 @@ html {
 
 .contact-link:hover {
   color: #7b3f7e !important;
+}
+
+/* Focus indicators for keyboard navigation (WCAG 2.4.7) */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible,
+select:focus-visible {
+  outline: 3px solid #7b3f7e;
+  outline-offset: 2px;
+}
+
+/* Ensure all interactive elements show focus */
+.nav-link:focus-visible {
+  outline: 3px solid #7b3f7e;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+.footer-link:focus-visible {
+  outline: 3px solid #e1a5af;
+  outline-offset: 2px;
+}
+
+.email-alt-link:focus-visible {
+  outline: 3px solid #7b3f7e;
+  outline-offset: 2px;
 }

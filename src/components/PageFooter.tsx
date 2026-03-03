@@ -23,8 +23,8 @@ export default function PageFooter() {
         <div className="pt-8" style={{ borderTop: "1px solid rgba(255, 255, 255, 0.2)" }}>
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm" style={{ color: "white" }}>© 2026 Elderly Ease. All rights reserved.</p>
-            <a href="https://facebook.com/ElderlyEase" className="footer-link text-sm flex items-center gap-2" style={{ color: "white" }}>
-              <FiFacebook className="w-4 h-4" style={{ color: "white" }} />
+            <a href="https://facebook.com/ElderlyEase" className="footer-link text-sm flex items-center gap-2" style={{ color: "white" }} aria-label="Visit Elderly Ease on Facebook">
+              <FiFacebook className="w-4 h-4" style={{ color: "white" }} aria-hidden="true" />
               facebook.com/ElderlyEase
             </a>
           </div>

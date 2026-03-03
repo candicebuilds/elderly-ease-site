@@ -7,7 +7,7 @@ export default function TransportPolicy() {
       <LegalPageHeader />
 
       {/* Main Content */}
-      <section className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
+      <section id="main-content" className="py-20 px-4 sm:px-6 lg:px-8 bg-amber-50">
         <div className="max-w-4xl mx-auto">
           <h1 className="font-bold mb-12" style={{ color: "#585858", fontSize: "24px" }}>Transport Policy</h1>
 
