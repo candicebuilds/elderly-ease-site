@@ -72,7 +72,7 @@ export default function Home() {
             {/* Hero Image */}
             <div className="relative h-96 rounded-2xl overflow-hidden shadow-lg">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F76cd867b1a0f46cf9c8c80c213245dd5"
+                src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F7ebb4de5d94d42da9c27cd67e871feb6"
                 alt="Caregiver with elderly client and dog"
                 className="w-full h-full object-cover"
                 style={{ objectPosition: "75% center" }}
