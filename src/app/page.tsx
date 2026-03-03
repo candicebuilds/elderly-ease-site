@@ -24,7 +24,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center hover:opacity-80 transition" style={{ gap: "2px" }}>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fe8ad51425c894236833a6e7a1be1da4b"
+              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fe8ad51425c894236833a6e7a1be1da4b?width=100&height=100"
               alt="Elderly Ease Logo"
               className="w-10 h-10"
             />
