@@ -1,8 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Empty config allows Turbopack to work with defaults
-  // If you encounter chunk loading issues, this can be expanded
+  // Explicitly use Turbopack (default in Next.js 16)
+  // This prevents conflicts with webpack configuration
 };
 
 export default nextConfig;
