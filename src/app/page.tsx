@@ -2,15 +2,16 @@
 
 import Image from "next/image";
 import { useState } from 'react';
-import { FiPhone, FiMail } from 'react-icons/fi'
-import { FaWhatsapp } from 'react-icons/fa'
+import { FaWhatsapp } from 'react-icons/fa';
 import PageFooter from '@/components/PageFooter';
 
 export default function Home() {
   const [copied, setCopied] = useState(false);
 
   const handleCopyEmail = () => {
-    navigator.clipboard.writeText('hello@elderlyease.co.za');
+    // Open Gmail compose with the email
+    window.open('https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za', '_blank');
+    // Show "Copied!" feedback for familiarity
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
@@ -26,7 +27,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center hover:opacity-80 transition" style={{ gap: "2px" }}>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Faad9320e5dd04b1db64483a555c1c5eb"
+              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fe8ad51425c894236833a6e7a1be1da4b?width=100&height=100"
               alt="Elderly Ease Logo"
               className="w-10 h-10"
             />
@@ -57,7 +58,7 @@ export default function Home() {
                 </h1>
               </div>
               <h2 className="text-xl leading-tight" style={{ color: "#585858" }}>
-                Reliable support for elderly individuals in Edenvale and surrounds, delivered with heart and connection.
+                Reliable support for elderly individuals in Edenvale and surrounds, delivered with heart and connection.*
               </h2>
               <div className="flex gap-4 pt-4">
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease!%20I%20would%20love%20to%20chat%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-full font-medium transition transform hover:scale-105 inline-block" style={{ backgroundColor: "#7b3f7e" }}>
@@ -86,8 +87,8 @@ export default function Home() {
       <div className="opacity-40" style={{ position: "absolute", left: "15%", top: "-450px", width: "100%", zIndex: 99, right: "auto", bottom: "auto" }} />
 
       {/* About Us Section */}
-      <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative", overflow: "visible", zIndex: 50 }}>
-        <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; } }`}</style>
+      <section id="about" className="relative px-4 sm:px-6 lg:px-8 overflow-hidden" style={{ backgroundColor: "#9D737A", marginTop: "-50px", position: "relative", overflow: "visible", zIndex: 10, scrollMarginTop: "70px" }}>
+        <style>{`@media (min-width: 768px) { #about { margin-top: -60px !important; scroll-margin-top: 80px; } }`}</style>
         <div className="mx-auto relative z-10" style={{ maxWidth: "800px", paddingTop: "50px", paddingBottom: "60px" }}>
           <h2 className="text-3xl font-bold text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px", marginBottom: "24px" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
@@ -314,7 +315,7 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20chat%20about%20the%20Essential%20Ease%20package." target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca", color: "#585858", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
                 </a>
-                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Essential%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Inquiry%3A%20Essential%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -336,7 +337,7 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi!%20I'm%20interested%20in%20the%20Comfort%20Ease%20package." target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af", color: "#585858", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
                 </a>
-                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Comfort%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Inquiry%3A%20Comfort%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -358,7 +359,7 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20discuss%20the%20Complete%20Ease%20package." target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
                 </a>
-                <a href="mailto:hello@elderlyease.co.za?subject=Inquiry:%20Complete%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Inquiry%3A%20Complete%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -374,7 +375,7 @@ export default function Home() {
                   <p className="text-4xl font-bold" style={{ color: "#585858" }}>Individually Quoted</p>
                 </div>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
-                <a href="mailto:hello@elderlyease.co.za?subject=Quote%20Request:%20Custom%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Quote%20Request%3A%20Custom%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -387,7 +388,7 @@ export default function Home() {
                   <span className="text-4xl font-bold" style={{ color: "#585858" }}>R250</span>/hour
                 </p>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
-                <a href="mailto:hello@elderlyease.co.za?subject=Trial%20Inquiry:%20Simple%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Trial%20Inquiry%3A%20Simple%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -483,12 +484,12 @@ export default function Home() {
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="flex flex-col items-center gap-4">
-                <div className="text-4xl" style={{ color: "#585858" }} aria-hidden="false">
+                <div className="text-4xl" style={{ color: "#585858" }}>
                   <FaWhatsapp aria-label="WhatsApp icon" />
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
-                  <a href="https://wa.me/27689292847" className="font-medium contact-link block mb-2">
+                  <a href="https://wa.me/27689292847" target="_blank" rel="noopener noreferrer" className="font-medium contact-link block mb-2">
                     Start Chat or Voice Note
                   </a>
                   <span className="inline-block text-sm font-medium px-2 py-1 rounded" style={{ backgroundColor: "#6ec6ca", color: "#585858", marginTop: "10px" }}>Fastest Response</span>
@@ -497,7 +498,10 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-4">
                 <button className="text-4xl relative" style={{ color: "#585858", cursor: "pointer", background: "none", border: "none", padding: 0 }} onClick={handleCopyEmail} aria-label="Copy email address to clipboard" title="Click to copy email address">
-                  <FiMail />
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                    <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/>
+                  </svg>
                   {copied && (
                     <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 bg-gray-800 text-white text-xs px-2 py-1 rounded whitespace-nowrap pointer-events-none" role="status" aria-live="polite">
                       Copied!
@@ -506,7 +510,7 @@ export default function Home() {
                 </button>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Email</p>
-                  <a href="mailto:hello@elderlyease.co.za" className="font-medium contact-link">
+                  <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za" target="_blank" rel="noopener noreferrer" className="font-medium contact-link">
                     hello@elderlyease.co.za
                   </a>
                   <p className="text-sm mt-2" style={{ color: "#585858", lineHeight: "22px" }}>Best for custom quotes & non-urgent questions.</p>
@@ -515,11 +519,13 @@ export default function Home() {
 
               <div className="flex flex-col items-center gap-4">
                 <div className="text-4xl" style={{ color: "#585858" }} aria-hidden="false">
-                  <FiPhone aria-label="Phone icon" />
+                  <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" aria-label="Phone icon">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                  </svg>
                 </div>
                 <div>
                   <p className="font-medium mb-2" style={{ color: "#585858" }}>Phone</p>
-                  <a href="https://wa.me/27689292847" className="font-medium contact-link">
+                  <a href="https://wa.me/27689292847" target="_blank" rel="noopener noreferrer" className="font-medium contact-link">
                     068 929 2847
                   </a>
                   <p className="text-sm mt-2" style={{ color: "#585858", lineHeight: "22px" }}>Best for urgent needs. Please leave a message if we are with a client.</p>
