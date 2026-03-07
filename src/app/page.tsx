@@ -2,8 +2,10 @@
 
 import Image from "next/image";
 import { useState } from 'react';
-import { FaWhatsapp } from 'react-icons/fa';
+import dynamic from 'next/dynamic';
 import PageFooter from '@/components/PageFooter';
+
+const FaWhatsapp = dynamic(() => import('react-icons/fa').then(mod => ({ default: mod.FaWhatsapp })), { ssr: false });
 
 export default function Home() {
   const [copied, setCopied] = useState(false);
@@ -27,7 +29,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
           <a href="/" className="flex items-center hover:opacity-80 transition" style={{ gap: "2px" }}>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2Fe8ad51425c894236833a6e7a1be1da4b?width=100&height=100"
+              src="https://cdn.builder.io/api/v1/image/assets%2F9a3eb04efb63454cb996a3397cd9e84b%2F320526f00a274e6b86caadcfb5be1417"
               alt="Elderly Ease Logo"
               className="w-10 h-10"
             />
@@ -58,7 +60,7 @@ export default function Home() {
                 </h1>
               </div>
               <h2 className="text-xl leading-tight" style={{ color: "#585858" }}>
-                Reliable support for elderly individuals in Edenvale and surrounds, delivered with heart and connection.*
+                Reliable support for elderly individuals in Edenvale and surrounds, delivered with heart and connection.
               </h2>
               <div className="flex gap-4 pt-4">
                 <a href="https://wa.me/27689292847?text=Hi%20Elderly%20Ease!%20I%20would%20love%20to%20chat%20about%20your%20services." target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-full font-medium transition transform hover:scale-105 inline-block" style={{ backgroundColor: "#7b3f7e" }}>
@@ -93,12 +95,12 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px", marginBottom: "24px" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
 
-          <div className="space-y-6" style={{ lineHeight: "1.6" }}>
-      <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
+          <div className="space-y-6" style={{ lineHeight: "24px" }}>
+      <p style={{ fontSize: "16px", color: "white", lineHeight: "24px" }}>
         At Elderly Ease, we believe that growing older shouldn't mean losing your connection to the community you love. Based in the quiet streets of Hurlyvale, our mission is simple: to provide reliable, compassionate support that makes daily living feel effortless again. Whether it's navigating new technology, tending to a beloved garden, or simply having a friendly face to share a cup of tea with, we are here to bridge the gap between needing help and receiving it with dignity.
       </p>
 
-      <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
+      <p style={{ fontSize: "16px", color: "white", lineHeight: "24px" }}>
         We understand that every individual has a unique story. That's why our team—Candice, Colleen, and Carolyn—focuses on more than just tasks; we focus on heart and connection. Serving Edenvale and surrounds, including Greenstone Hill, Bedfordview, and Dowerglen, we take pride in being the local support system that families can trust. We aren't just a service provider; we are your neighbors, dedicated to ensuring that our seniors feel seen, heard, and supported right here at home.
       </p>
     </div>

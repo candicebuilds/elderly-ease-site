@@ -13,35 +13,35 @@ export default function TermsOfService() {
 
           <div className="space-y-8" style={{ color: "#585858" }}>
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Rates</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Rates</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 Our standard service rate is R250 per hour.
               </p>
             </div>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Expenses</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Expenses</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 We will invoice you for any agreed reimbursements (e.g., groceries or light bulbs) alongside our service fee.
               </p>
             </div>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Payment Methods</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Payment Methods</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 For your convenience, we accept Cash, EFT, or Card (via our mobile card machine).
               </p>
             </div>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Cancellations</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Cancellations</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 Please provide 24 hours' notice for cancellations to avoid a 50% late-cancellation fee.
               </p>
             </div>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Payments</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Payments</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 Invoices are payable within 7 days of the invoice date.
               </p>
