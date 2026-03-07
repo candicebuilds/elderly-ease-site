@@ -95,12 +95,12 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-center leading-tight sm:text-4xl" style={{ color: "white", fontSize: "36px", fontWeight: "700", lineHeight: "40px", marginBottom: "24px" }}>About Us</h2>
           <style>{`@media (min-width: 640px) { #about h2 { font-size: 36px; } }`}</style>
 
-          <div className="space-y-6" style={{ lineHeight: "1.6" }}>
-      <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
+          <div className="space-y-6" style={{ lineHeight: "24px" }}>
+      <p style={{ fontSize: "16px", color: "white", lineHeight: "24px" }}>
         At Elderly Ease, we believe that growing older shouldn't mean losing your connection to the community you love. Based in the quiet streets of Hurlyvale, our mission is simple: to provide reliable, compassionate support that makes daily living feel effortless again. Whether it's navigating new technology, tending to a beloved garden, or simply having a friendly face to share a cup of tea with, we are here to bridge the gap between needing help and receiving it with dignity.
       </p>
 
-      <p style={{ fontSize: "16px", color: "white", lineHeight: "1.6" }}>
+      <p style={{ fontSize: "16px", color: "white", lineHeight: "24px" }}>
         We understand that every individual has a unique story. That's why our team—Candice, Colleen, and Carolyn—focuses on more than just tasks; we focus on heart and connection. Serving Edenvale and surrounds, including Greenstone Hill, Bedfordview, and Dowerglen, we take pride in being the local support system that families can trust. We aren't just a service provider; we are your neighbors, dedicated to ensuring that our seniors feel seen, heard, and supported right here at home.
       </p>
     </div>
