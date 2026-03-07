@@ -2,8 +2,10 @@
 
 import Image from "next/image";
 import { useState } from 'react';
-import { FaWhatsapp } from 'react-icons/fa';
+import dynamic from 'next/dynamic';
 import PageFooter from '@/components/PageFooter';
+
+const FaWhatsapp = dynamic(() => import('react-icons/fa').then(mod => ({ default: mod.FaWhatsapp })), { ssr: false });
 
 export default function Home() {
   const [copied, setCopied] = useState(false);
