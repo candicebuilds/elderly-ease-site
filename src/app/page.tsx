@@ -2,9 +2,12 @@
 
 import Image from "next/image";
 import { useState } from 'react';
-import { FiPhone, FiMail } from 'react-icons/fi'
-import { FaWhatsapp } from 'react-icons/fa'
+import dynamic from 'next/dynamic';
 import PageFooter from '@/components/PageFooter';
+
+const FiPhone = dynamic(() => import('react-icons/fi').then(mod => ({ default: mod.FiPhone })), { ssr: false });
+const FiMail = dynamic(() => import('react-icons/fi').then(mod => ({ default: mod.FiMail })), { ssr: false });
+const FaWhatsapp = dynamic(() => import('react-icons/fa').then(mod => ({ default: mod.FaWhatsapp })), { ssr: false });
 
 export default function Home() {
   const [copied, setCopied] = useState(false);

@@ -1,6 +1,8 @@
 'use client';
 
-import { FiFacebook } from 'react-icons/fi';
+import dynamic from 'next/dynamic';
+
+const FiFacebook = dynamic(() => import('react-icons/fi').then(mod => ({ default: mod.FiFacebook })), { ssr: false });
 
 export default function PageFooter() {
   return (
