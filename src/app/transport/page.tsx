@@ -17,28 +17,28 @@ export default function TransportPolicy() {
             </p>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Vehicle Condition</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Vehicle Condition</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 We use roadworthy vehicles that are regularly maintained and insured.
               </p>
             </div>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Safety First</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Safety First</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 Drivers hold valid SA licenses. Seatbelts must be worn at all times.
               </p>
             </div>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Using Your Vehicle</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Using Your Vehicle</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 If you request that we drive your personal vehicle, you confirm that the vehicle is roadworthy and that your insurance covers a third-party driver.
               </p>
             </div>
 
             <div>
-              <h2 className="font-bold mb-3" style={{ color: "#585858", fontSize: "18px" }}>Incidents</h2>
+              <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Incidents</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
                 In the event of a breakdown or accident, we will immediately secure your safety and contact your emergency representative.
               </p>
