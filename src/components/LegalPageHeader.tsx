@@ -14,7 +14,7 @@ export default function LegalPageHeader() {
               alt="Elderly Ease Logo"
               className="w-10 h-10"
             />
-            <span className="font-bold" style={{ color: "#7b3f7e" }}>Elderly Ease</span>
+            <span className="font-bold" style={{ color: "#585858" }}>Elderly Ease</span>
           </a>
         </div>
       </nav>
