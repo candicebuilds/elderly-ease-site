@@ -12,7 +12,7 @@ export default function TransportPolicy() {
           <h1 className="font-bold mb-12" style={{ color: "#585858", fontSize: "24px" }}>Transport Policy</h1>
 
           <div className="space-y-8" style={{ color: "#585858" }}>
-            <p className="leading-relaxed" style={{ fontSize: "16px" }}>
+            <p className="leading-relaxed" style={{ fontSize: "16px", fontStyle: "italic" }}>
               To ensure every journey is safe and comfortable, the following rules apply:
             </p>
 
