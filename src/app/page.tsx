@@ -390,7 +390,7 @@ export default function Home() {
                   <span className="text-4xl font-bold" style={{ color: "#585858" }}>R250</span>/hour
                 </p>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
-                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Trial%20Inquiry%3A%20Simple%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&su=I%27m%20interested%20in%20trying%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
