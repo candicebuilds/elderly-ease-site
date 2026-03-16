@@ -490,7 +490,6 @@ export default function Home() {
                   <FaWhatsapp aria-label="WhatsApp icon" />
                 </div>
                 <div>
-                  <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
                   <a href="https://wa.me/27689292847" target="_blank" rel="noopener noreferrer" className="font-medium contact-link block mb-2">
                     Start Chat or Voice Note
                   </a>
