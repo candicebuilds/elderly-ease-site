@@ -377,7 +377,7 @@ export default function Home() {
                   <p className="text-4xl font-bold" style={{ color: "#585858" }}>Individually Quoted</p>
                 </div>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
-                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Quote%20Request%3A%20Custom%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&su=I%27d%20like%20to%20build%20a%20Custom%20Ease%20plan" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
