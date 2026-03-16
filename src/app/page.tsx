@@ -317,7 +317,7 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20chat%20about%20the%20Essential%20Ease%20package." target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#6ec6ca", color: "#585858", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
                 </a>
-                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Inquiry%3A%20Essential%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&su=I%27d%20like%20to%20chat%20about%20the%20Essential%20Ease%20package" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#6ec6ca", color: "#6ec6ca", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -339,7 +339,7 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi!%20I'm%20interested%20in%20the%20Comfort%20Ease%20package." target="_blank" rel="noopener noreferrer" className="px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#e1a5af", color: "#585858", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
                 </a>
-                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Inquiry%3A%20Comfort%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&su=I%27m%20interested%20in%20the%20Comfort%20Ease%20package" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#e1a5af", color: "#e1a5af", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -361,7 +361,7 @@ export default function Home() {
                 <a href="https://wa.me/27689292847?text=Hi!%20I'd%20like%20to%20discuss%20the%20Complete%20Ease%20package." target="_blank" rel="noopener noreferrer" className="text-white px-6 py-3 rounded-lg font-medium transition mt-auto hover:opacity-90 block text-center" style={{ backgroundColor: "#7b3f7e", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   WhatsApp Us
                 </a>
-                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Inquiry%3A%20Complete%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&su=I%27d%20like%20to%20discuss%20the%20Complete%20Ease%20package" target="_blank" rel="noopener noreferrer" className="px-6 rounded-lg font-medium transition hover:bg-gray-100 text-center mt-2" style={{ borderWidth: "2px", borderColor: "#7b3f7e", color: "#7b3f7e", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -377,7 +377,7 @@ export default function Home() {
                   <p className="text-4xl font-bold" style={{ color: "#585858" }}>Individually Quoted</p>
                 </div>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
-                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Quote%20Request%3A%20Custom%20Ease%20Plan" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&su=I%27d%20like%20to%20build%20a%20Custom%20Ease%20plan" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -390,7 +390,7 @@ export default function Home() {
                   <span className="text-4xl font-bold" style={{ color: "#585858" }}>R250</span>/hour
                 </p>
                 <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
-                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&subject=Trial%20Inquiry%3A%20Simple%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
+                <a href="https://mail.google.com/mail/?view=cm&to=hello@elderlyease.co.za&su=I%27m%20interested%20in%20trying%20Hourly%20Ease" target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
                   Email Us
                 </a>
               </div>
@@ -490,7 +490,6 @@ export default function Home() {
                   <FaWhatsapp aria-label="WhatsApp icon" />
                 </div>
                 <div>
-                  <p className="font-medium mb-2" style={{ color: "#585858" }}>WhatsApp</p>
                   <a href="https://wa.me/27689292847" target="_blank" rel="noopener noreferrer" className="font-medium contact-link block mb-2">
                     Start Chat or Voice Note
                   </a>

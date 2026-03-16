@@ -40,7 +40,7 @@ export default function TransportPolicy() {
             <div>
               <h2 className="font-bold mb-1" style={{ color: "#585858", fontSize: "18px" }}>Incidents</h2>
               <p className="leading-relaxed" style={{ fontSize: "16px" }}>
-                In the event of a breakdown or accident, we will immediately secure your safety and contact your emergency representative.
+                In the event of a breakdown or accident, we will immediately secure your safety, contact your emergency representative, and ensure that you are safely transported home.
               </p>
             </div>
           </div>
