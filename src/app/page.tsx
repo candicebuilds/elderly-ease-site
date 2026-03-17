@@ -7,24 +7,10 @@ import PageFooter from '@/components/PageFooter';
 
 const FaWhatsapp = dynamic(() => import('react-icons/fa').then(mod => ({ default: mod.FaWhatsapp })), { ssr: false });
 
-// Utility function to detect mobile devices
-function isMobileDevice(): boolean {
-  if (typeof window === 'undefined') return false;
-  const userAgent = window.navigator.userAgent.toLowerCase();
-  return /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/.test(userAgent);
-}
-
-// Generate email link based on device type
+// Generate universal email link that works across all devices and email clients
 function getEmailLink(toEmail: string, subject: string): string {
   const encodedSubject = encodeURIComponent(subject);
-
-  if (isMobileDevice()) {
-    // Use mailto: for mobile devices
-    return `mailto:${toEmail}?subject=${encodedSubject}`;
-  } else {
-    // Use Gmail compose URL for desktop
-    return `https://mail.google.com/mail/?view=cm&to=${toEmail}&su=${encodedSubject}`;
-  }
+  return `mailto:${toEmail}?subject=${encodedSubject}`;
 }
 
 export default function Home() {
