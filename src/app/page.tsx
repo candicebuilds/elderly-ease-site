@@ -138,10 +138,6 @@ export default function Home() {
                 </li>
                 <li className="flex items-start gap-3">
                   <span className="font-bold" style={{ color: "#585858" }}>•</span>
-                  <span><strong style={{ fontWeight: "600" }}>Meal Preparation:</strong> Support with planning, shopping, and cooking.</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="font-bold" style={{ color: "#585858" }}>•</span>
                   <span><strong style={{ fontWeight: "600" }}>House Maintenance:</strong> Everyday fixes like oiling hinges, hanging pictures, or changing bulbs.</span>
                 </li>
                 <li className="flex items-start gap-3">
