@@ -129,7 +129,7 @@ export default function Home() {
                 Home Management & Daily Living
               </h3>
               <p className="font-medium italic mb-4" style={{ color: "#585858" }}>
-                Because staying connected should feel easy.
+                Because home should always feel like a sanctuary.
               </p>
               <ul className="space-y-2" style={{ color: "#585858" }}>
                 <li className="flex items-start gap-3">
