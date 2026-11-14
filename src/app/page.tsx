@@ -371,32 +371,15 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Additional Pricing Options */}
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 auto-rows-fr">
-            <div className="bg-white rounded-xl shadow-md h-full">
-              <div className="p-8 flex flex-col h-full text-center">
-                <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Custom Ease</h3>
-                <div className="mb-4">
-                  <p className="text-4xl font-bold" style={{ color: "#585858" }}>Individually Quoted</p>
-                </div>
-                <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Tailored to your unique needs. Mix and match services.</p>
-                <a href={getEmailLink('hello@elderlyease.co.za', "I'd like to build a Custom Ease plan")} target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
-                  Email Us
-                </a>
+          <div className="flex justify-center">
+            <div className="bg-white rounded-xl w-full max-w-3xl flex flex-col md:flex-row items-center justify-between gap-4 px-6 py-4" style={{ boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.08)" }}>
+              <div className="text-center md:text-left">
+                <h3 className="text-lg font-semibold" style={{ color: "#585858" }}>Custom Ease</h3>
+                <p className="text-sm" style={{ color: "#585858" }}>Looking for a lighter or bespoke mix of services? Get in touch for a tailored quote.</p>
               </div>
-            </div>
-
-            <div className="bg-white rounded-xl shadow-md h-full">
-              <div className="p-8 flex flex-col h-full text-center">
-                <h3 className="text-2xl font-bold mb-2" style={{ color: "#585858" }}>Hourly Ease</h3>
-                <p className="mb-4" style={{ color: "#585858" }}>
-                  <span className="text-4xl font-bold" style={{ color: "#585858" }}>R250</span>/hour
-                </p>
-                <p className="mb-4 flex-grow" style={{ color: "#585858" }}>Flexible, transparent support for one‑off needs. A great way to try Elderly Ease before committing to a package.</p>
-                <a href={getEmailLink('hello@elderlyease.co.za', "I'm interested in trying Hourly Ease")} target="_blank" rel="noopener noreferrer" className="text-white px-6 rounded-lg font-medium transition hover:opacity-90 text-center mt-2" style={{ backgroundColor: "#585858", height: "48px", lineHeight: "48px", display: "block", paddingTop: "0", paddingBottom: "0", width: "207px", marginLeft: "auto", marginRight: "auto" }}>
-                  Email Us
-                </a>
-              </div>
+              <a href={getEmailLink('hello@elderlyease.co.za', "I'd like to build a Custom Ease plan")} target="_blank" rel="noopener noreferrer" className="px-4 rounded-lg text-sm font-medium transition hover:bg-gray-100 text-center shrink-0" style={{ border: "1px solid #585858", color: "#585858", height: "36px", lineHeight: "34px", display: "block", paddingTop: "0", paddingBottom: "0" }}>
+                Email Us
+              </a>
             </div>
           </div>
         </div>
