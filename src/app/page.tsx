@@ -372,7 +372,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center">
-            <div className="bg-white rounded-xl w-full max-w-3xl flex flex-col md:flex-row items-center justify-between gap-4 px-6 py-4" style={{ boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.08)" }}>
+            <div className="bg-white rounded-xl w-full flex flex-col md:flex-row items-center justify-between gap-4 px-6 py-4" style={{ boxShadow: "0 0 20px -5px rgba(0, 0, 0, 0.08)" }}>
               <div className="text-center md:text-left">
                 <h3 className="text-lg font-semibold" style={{ color: "#585858" }}>Custom Ease</h3>
                 <p className="text-sm" style={{ color: "#585858" }}>Looking for a lighter or bespoke mix of services? Get in touch for a tailored quote.</p>
